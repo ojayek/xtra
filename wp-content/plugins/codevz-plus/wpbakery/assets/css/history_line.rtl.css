@@ -1,0 +1,19 @@
+.cz_history_1 {
+	padding: 0 40px 0 0
+}
+.cz_has_year {
+	margin-left: 0;
+	margin-right: 82px
+}
+.cz_history_1 > span:first-child {
+	right: -82px;
+	left: auto
+}
+.cz_history_1:before {
+	right: 2px;
+	left: auto
+}
+.cz_history_1:after {
+	right: 5px;
+	left: auto
+}

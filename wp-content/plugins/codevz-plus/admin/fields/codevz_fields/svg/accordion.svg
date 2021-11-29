@@ -1,0 +1,63 @@
+<svg id="Accordion" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1, .cls-3, .cls-4 {
+        fill: #ffae00;
+      }
+
+      .cls-2, .cls-5 {
+        fill: #2f2f36;
+      }
+
+      .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        stroke: #2f2f36;
+        stroke-width: 1px;
+      }
+
+      .cls-4, .cls-5 {
+        font-size: 5px;
+        font-family: Poppins;
+        text-transform: uppercase;
+      }
+    </style>
+  </defs>
+  <rect id="BG_Shape" data-name="BG Shape" class="cls-1" width="32" height="32" rx="3" ry="3"/>
+  <path id="Rounded_Rectangle_4" data-name="Rounded Rectangle 4" class="cls-2" d="M5.407,6H26.593A2.455,2.455,0,0,1,29,8.5,2.455,2.455,0,0,1,26.593,11H5.407A2.455,2.455,0,0,1,3,8.5,2.455,2.455,0,0,1,5.407,6Z"/>
+  <path id="Rounded_Rectangle_4_copy_2" data-name="Rounded Rectangle 4 copy 2" class="cls-3" d="M5.407,20H26.593a2.5,2.5,0,0,1,0,5H5.407A2.5,2.5,0,0,1,5.407,20Z"/>
+  <path id="Rounded_Rectangle_4_copy_3" data-name="Rounded Rectangle 4 copy 3" class="cls-3" d="M5.407,13H26.593a2.5,2.5,0,0,1,0,5H5.407A2.5,2.5,0,0,1,5.407,13Z"/>
+  <text id="_" data-name="+" class="cls-4" x="22.833" y="10.167">+</text>
+  <text id="_2" data-name="+" class="cls-5" x="22.833" y="17.167">+</text>
+  <text id="_3" data-name="+" class="cls-5" x="22.833" y="24.167">+</text>
+</svg>

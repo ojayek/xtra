@@ -1,0 +1,57 @@
+.cz_ticker {
+	padding: 10px 18px;
+	border: 1px solid #ff3100
+}
+header .cz_ticker {
+	width: 460px
+}
+.cz_ticker_badge {
+	line-height: 2;
+	padding: 0 12px;
+	font-size: 12px;
+	border-radius: 2px;
+	background: #ff3100;
+	color: #fff;
+	position: absolute;
+	left: 18px;
+	top: -16px;
+	z-index: 1
+}
+.rtl .cz_ticker_badge {
+	left: auto;
+	right: 18px
+}
+.cz_ticker small {
+	display: inline-block !important;
+	padding: 2px 8px;
+	margin: 0;
+	background: rgba(167, 167, 167, .14);
+	border-radius: 2px
+}
+.cz_ticker.slick-slider .slick-arrow {
+	width: 30px;
+	height: auto;
+	background: none;
+	border: 0;
+	transform: translate(0, -50%) !important;
+	top: 50%;
+	right: 10px;
+	margin: 0;
+	line-height: 1em;
+	width: 1em;
+	height: 1em
+}
+.cz_ticker.slick-slider .slick-prev {
+	right: 32px
+}
+.rtl .cz_ticker.slick-slider .slick-prev {
+	left: 10px;
+	right: auto
+}
+.rtl .cz_ticker.slick-slider .slick-next {
+	left: 32px;
+	right: auto
+}
+.cz_ticker.slick-slider .slick-arrow:before {
+	background: none
+}

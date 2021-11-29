@@ -1,0 +1,1 @@
+<?php Codevz_Theme::generate_page( 'single' );

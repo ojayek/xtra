@@ -1,0 +1,243 @@
+.cz_hotspot {
+	position: absolute;
+	z-index: 90
+}
+.cz_hotspot:hover {
+	z-index: 99
+}
+.cz_hotspot_circle {
+	position: relative;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 100%;
+	color: #fff;
+	padding: 10px;
+	font-size: 20px;
+	background: #111;
+	white-space: nowrap
+}
+.elementor-element .cz_hotspot_circle {
+	box-sizing: content-box
+}
+.cz_hotspot_circle i {
+	display: block;
+	width: 1em;
+	height: 1em;
+	line-height: 1em
+}
+.cz_hotspot_circle .cz_hotspot_number {
+	font-style: normal
+}
+.cz_hotspot_circle .cz_hotspot_image {
+	width: auto;
+	height: auto
+}
+.cz_hotspot_circle:hover {
+	transform: scale(1.1)
+}
+.cz_hotspot_pulse {
+	transform: translateZ(0);
+	animation-name: cz_hotspot_pulsate;
+	animation-duration: inherit;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite
+}
+@keyframes cz_hotspot_pulsate {
+	0% {transform: scale(.9);opacity: .5}
+	50% {opacity: 1}
+	100% {transform: scale(1.1);opacity: .5}
+}
+.cz_hotspot_waves > div:before {
+	content: '';
+	position: absolute;
+	height: calc(100% - 2px);
+	width: calc(100% - 2px);
+	border: 1px solid;
+	border-color: inherit;
+	border-radius: inherit;
+	left: 0;
+	top: 0;
+	transform: translateZ(0);
+	animation-name: hotSpotWaves;
+	animation-duration: inherit;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite
+}
+.elementor-widget.elementor-widget-cz_hotspot {
+	position: static;
+	margin-bottom: 0 !important
+}
+.elementor-page .cz_hotspot_waves > div:before {
+	left: 1px;
+	top: 1px
+}
+@keyframes hotSpotWaves {
+	0% {transform: scale(1, 1);opacity: 1}
+	25% {transform: scale(1.2, 1.2);opacity: .7}
+	50% {transform: scale(1.4, 1.4);opacity: .5}
+	75% {transform: scale(1.6, 1.6);opacity: .2}
+	100% {transform: scale(1.8, 1.8);opacity: 0}
+}
+.cz_hotspot_content {
+	position: absolute;
+	padding: 20px;
+	visibility: hidden;
+	width: 200px;
+	opacity: 0;
+	z-index: 2;
+	background: #fff;
+	border-radius: 2px;
+	box-sizing: content-box !important;
+	box-shadow: 0 0 35px rgba(50, 50, 93, .01), 0 5px 15px rgba(0, 0, 0, .05);
+	transition: all .2s ease-in-out
+}
+.cz_hotspot_content p {margin-bottom:0}
+.cz_hotspot:hover .cz_hotspot_content, 
+.cz_hotspot_always_open .cz_hotspot_content {
+	visibility: visible;
+	opacity: 1
+}
+.cz_hotspot_top {
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, calc(-100% - 14px))
+}
+.cz_hotspot_right {
+	top: 50%;
+	right: 0;
+	transform: translate(calc(100% + 18px), -50%)
+}
+.cz_hotspot_bottom {
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, calc(100% + 14px))
+}
+.cz_hotspot_left {
+	top: 50%;
+	left: 0;
+	transform: translate(calc(-100% - 18px), -50%)
+}
+.cz_hotspot_tr {transform: translate(0, calc(-100% - 15px))}
+.cz_hotspot_tl {transform: translate(-101%, calc(-100% - 15px))}
+.cz_hotspot_br {transform: translate(0, calc(100% + 15px))}
+.cz_hotspot_bl {transform: translate(-101%, calc(100% + 15px))}
+.cz_hotspot_ripple {
+	border-radius: 100%;
+	transform: translateZ(0);
+	animation: cz_ripple .8s linear infinite
+}
+@keyframes cz_ripple {
+	0% {box-shadow: 0 4px 10px rgba(102, 102, 102, .1), 0 0 0 0 rgba(102, 102, 102, .1), 0 0 0 5px rgba(102, 102, 102, .1), 0 0 0 10px rgba(102, 102, 102, .1)}
+	100% {box-shadow: 0 4px 10px rgba(102, 102, 102, .1), 0 0 0 5px rgba(102, 102, 102, .1), 0 0 0 10px rgba(102, 102, 102, .1), 0 0 0 20px rgba(102, 102, 102, 0)}
+}
+
+.xtra-hotspot-rotate-icon > * {
+	transform: rotate(-45deg);
+}
+
+.tooltip {
+	position: relative;
+	display: inline-block
+}
+.tooltip__trigger {
+	cursor: pointer;
+	position: relative
+}
+.tooltip__trigger-text {
+	display: block;
+	padding: .85em;
+	pointer-events: none;
+	transform: none !important
+}
+.tooltip__base {
+	position: absolute;
+	bottom: 2em;
+	left: 50%;
+	margin-left: -150px;
+	width: 300px;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	pointer-events: none
+}
+.tooltip__content {
+	color: #4a4a4a;
+	display: flex;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	width: 65%;
+	padding: 0 1em;
+	opacity: 0;
+	font-size: .85em
+}
+.tooltip__shape,
+.tooltip__deco {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0
+}
+.tooltip__shape {fill: #141514}
+.tooltip--cora .tooltip__base{transform-origin: 50% 100%}
+.tooltip--cora .tooltip__content {margin-bottom: 1em}
+.tooltip--smaug .tooltip__base {bottom: -0.5em;transform-origin: 50% 100%}
+.tooltip--smaug .tooltip__content {padding: 0}
+.tooltip--dori .tooltip__base {bottom: -0.5em}
+.tooltip--dori .tooltip__content {margin: 0 0 1em}
+.tooltip--walda .tooltip__base {
+	left: 0;
+	bottom: .75em;
+	position: absolute;
+	margin-left: 0;
+	width: 250px;
+	height: 100px;
+	padding: 0 0 0 .25em;
+}
+.tooltip--walda .tooltip__trigger-text {padding: 1em}
+.tooltip--walda .tooltip__content {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	align-items: flex-start;
+	text-align: left;
+	font-size: .85em;
+	line-height: 2;
+	opacity: 1;
+	justify-content: flex-start;
+}
+.tooltip--walda .tooltip__letters span {
+	display: inline-block;
+	white-space: pre;
+	opacity: 0;
+}
+.tooltip--walda .tooltip__deco {
+	width: 4px;
+	height: 100%;
+	background: #141514;
+	transform-origin: 50% 100%;
+}
+.tooltip--gram .tooltip__base {bottom: -0.5em}
+.path-narvi {transform-origin: 200px 150px}
+.tooltip--narvi .tooltip__content {width: 80%}
+.path-amras-1 {transform-origin: 115px 111px}
+.path-amras-2 {transform-origin: 204px 107px}
+.path-amras-3 {transform-origin: 279px 66px}
+.path-amras-4 {transform-origin: 320px 99px}
+.path-amras-5 {transform-origin: 137px 199px}
+.path-amras-6 {transform-origin: 222px 217px}
+.path-amras-7 {transform-origin: 80px 168px}
+.path-amras-8 {transform-origin: 296px 211px}
+.path-amras-9 {transform-origin: 310px 167px}
+.tooltip--hador .tooltip__base {bottom: 2.25em;margin-left: -115px}
+.path-hador-1 {transform-origin: 148px 284px}
+.path-hador-2 {transform-origin: 160px 268px}
+.path-hador-3 {transform-origin: 171px 246px}
+.path-hador-4 {transform-origin: 200px 120px}
+.tooltip--hador .tooltip__content {width: 50%;margin: 0 0 2.5em}
+.tooltip--malva .tooltip__content {width: 50%}
+.tooltip--sadoc .tooltip__base {bottom: 2.5em}
+.tooltip--sadoc .tooltip__shape path {stroke: #5a5c5b;stroke-width: 3px}

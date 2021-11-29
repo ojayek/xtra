@@ -1,0 +1,72 @@
+.cz_subscribe_elm {
+	position: relative;
+	float: left;
+	width: 100%;
+	max-width: 100%
+}
+.cz_subscribe_elm input {
+	padding: 11px
+}
+.cz_subscribe_elm button {
+	position: absolute !important;
+	right: 0;
+	top: 0
+}
+.rtl .cz_subscribe_elm button {
+	left: 0;
+	right: auto
+}
+.cz_subscribe_relative button {
+	position: relative !important;
+	margin: 10px 0 0
+}
+.cz_subscribe_round button, 
+.cz_subscribe_round input, 
+.cz_subscribe_round_2 button, 
+.cz_subscribe_round_2 input {
+	border-radius: 50px !important
+}
+.cz_subscribe_round input, 
+.cz_subscribe_round_2 input {
+	padding-left: 20px;
+	padding-right: 20px
+}
+.cz_subscribe_round_2 button {
+	border-top-left-radius: 0 !important;
+	border-bottom-left-radius: 0 !important
+}
+.rtl .cz_subscribe_round_2 button {
+	border-top-right-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
+	border-top-left-radius: 20px !important;
+	border-bottom-left-radius: 20px !important
+}
+.cz_subscribe_elm_center {
+	margin: 0 auto;
+	float: none;
+	display: table
+}
+.cz_subscribe_btn_center button {
+	margin: 10px auto 0 !important;
+	display: table !important
+}
+.cz_subscribe_elm_right,
+.cz_subscribe_btn_right button {
+	float: right
+}
+
+@media screen and (max-width:480px) {
+
+	.cz_subscribe_elm {
+		width:100% !important
+	}
+	.cz_subscribe_elm input {
+		text-align: center
+	}
+	.cz_subscribe_elm button[name="subscribe"] {
+		position: static !important;
+		margin: 15px auto 0 !important;
+		display: table
+	}
+
+}

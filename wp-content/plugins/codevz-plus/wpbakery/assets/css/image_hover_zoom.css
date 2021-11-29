@@ -1,0 +1,31 @@
+.cz_image_hover_zoom {
+	display: inline-block;
+	width: 100%;
+	overflow: hidden
+}
+.cz_image_hover_zoom > div {
+	overflow: hidden;
+	border-radius: inherit
+}
+.cz_image_hover_zoom a {
+	position: relative;
+	overflow: hidden;
+	display: block;
+	border: 0;
+	border-radius: inherit
+}
+.cz_img_for_zoom {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 2;
+	max-width: 4000% !important;
+	transition: initial !important
+}
+.cz_image_hover_zoom .cz_dimg {
+	width: 100%
+}
+.cz_image_hover_zoom img:first-child {
+	width: 100%
+}

@@ -1,0 +1,126 @@
+.cz_team {
+	position: relative;
+	box-sizing: border-box
+}
+.cz_team:hover {
+	z-index: 1
+}
+.cz_team p {
+	margin: 0
+}
+.cz_team_img, 
+.cz_team_img img, 
+.cz_team_content, 
+.cz_team_social {
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	transition: all .2s ease-in-out
+}
+.cz_team .cz_team_img, 
+.cz_team .cz_team_img img {
+	width: 100%;
+	border-radius: inherit;
+	overflow: hidden
+}
+.cz_team_2:hover img,
+.cz_team_3:hover img,
+.cz_team_4:hover img,
+.cz_team_5:hover img {
+	opacity: .5
+}
+.cz_team h1, .cz_team h2, .cz_team h3, .cz_team h4, .cz_team h5, .cz_team h6 {
+	margin: 0
+}
+.cz_team_1 .cz_team_social, 
+.cz_team_1 .cz_team_content {
+	margin: 20px 0 0
+}
+.cz_team_2 .cz_team_content,
+.cz_team_4 .cz_team_content {
+	margin: 20px 0 0
+}
+.cz_team_2 .cz_team_social {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	visibility: hidden;
+	opacity: 0;
+	width: 90%
+}
+.cz_team_3 .cz_team_social,
+.cz_team_3 .cz_team_content,
+.cz_team_5 .cz_team_social,
+.cz_team_5 .cz_team_content {
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: calc( 100% - 60px );
+	visibility: hidden;
+	opacity: 0
+}
+.cz_team_4 .cz_team_social {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: calc( 100% - 60px )
+}
+.cz_team_social_in {
+	display: inline-block
+}
+.cz_team_3 .cz_team_content {
+	top: 30px;
+	bottom: auto
+}
+.cz_team_5 .cz_team_content {
+	bottom: 80px
+}
+.cz_team_2:hover .cz_team_social,
+.cz_team_3:hover .cz_team_social,
+.cz_team_3:hover .cz_team_content,
+.cz_team_5:hover .cz_team_social,
+.cz_team_5:hover .cz_team_content {
+	visibility: visible;
+	opacity: 1
+}
+.cz_team_rev_hover .cz_team_social,
+.cz_team_rev_hover .cz_team_content {
+	visibility: visible;
+	opacity: 1
+}
+.cz_team_rev_hover:hover .cz_team_social,
+.cz_team_rev_hover:hover .cz_team_content {
+	visibility: hidden;
+	opacity: 0
+}
+.cz_team_always_show .cz_team_social,
+.cz_team_always_show .cz_team_content {
+	visibility: visible;
+	opacity: 1
+}
+.cz_social_v .cz_social a {display: block}
+.cz_team_6, .cz_team_6 .cz_team_img,
+.cz_team_7, .cz_team_7 .cz_team_img {
+	overflow: visible
+}
+.cz_team_6 .cz_team_content,
+.cz_team_7 .cz_team_content {
+	position: absolute;
+	z-index: 99;
+	display: none;
+	transition: none;
+	background: #212121;
+	color: #fff;
+	padding: 10px 20px;
+	white-space: nowrap;
+	width: auto;
+}
+.cz_team_7 .cz_team_social {
+	margin-top: 20px
+}
+.cz_team .cz_team_social a {
+	box-sizing: content-box
+}

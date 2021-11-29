@@ -1,0 +1,28 @@
+<svg id="offcanvas" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #ffae00;
+      }
+
+      .cls-2 {
+        stroke: #282828;
+        stroke-width: 2px;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #282828;
+      }
+
+      .cls-3 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect id="BG_Shape" data-name="BG Shape" class="cls-1" width="32" height="32" rx="3" ry="3"/>
+  <rect id="Rounded_Rectangle_5" data-name="Rounded Rectangle 5" class="cls-2" x="21" y="7" width="22" height="18" rx="3" ry="3"/>
+  <path id="Shape_1_copy" data-name="Shape 1 copy" class="cls-3" d="M6,20V19h5v1H6Z"/>
+  <path id="Shape_1_copy_13" data-name="Shape 1 copy 13" class="cls-3" d="M6,14V13h5v1H6Z"/>
+  <path id="Shape_1_copy_14" data-name="Shape 1 copy 14" class="cls-3" d="M6,17V16h5v1H6Z"/>
+  <rect class="cls-4" x="15" y="-6" width="2" height="50"/>
+</svg>

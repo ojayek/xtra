@@ -1,0 +1,23 @@
+div.sm2-bar-ui.cz_only_play {
+	width: 42px;
+	height: 42px;
+	min-width: 43px
+}
+div.cz_only_play .sm2-playlist,
+div.cz_only_play .sm2-volume,
+div.cz_only_play .sm2-inline-status {
+	display: none
+}
+div.cz_center_tm {
+	display: table;
+	margin: 0 auto
+}
+div.cz-music-player .sm2-playlist-wrapper ul li .sm2-icon {
+	color: inherit !important;
+	text-indent: 0 !important;
+	text-align: center
+}
+div.sm2-bar-ui .bd, 
+div.sm2-bar-ui .sm2-extra-controls {
+	background: #565656
+}

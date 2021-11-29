@@ -1,0 +1,13 @@
+.cz_testimonials_bottom_arrow .cz_testimonials_content:after {
+	left: auto;
+	right: -1px;
+	border-width: 30px 0 0 22px
+}
+.cz_testimonials_top_arrow .cz_testimonials_content:after {
+	left: auto;
+	right: -1px;
+	border-width: 30px 22px 0 0
+}
+.cz_testimonials_name_subname {
+	margin: 0 20px 0 0
+}

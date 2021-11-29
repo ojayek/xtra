@@ -1,0 +1,61 @@
+<svg id="Post_Grid" data-name="Post Grid" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #ffae00;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #2f2f36;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        stroke-width: 1px;
+        opacity: 0.6;
+      }
+    </style>
+  </defs>
+  <rect id="BG_Shape" data-name="BG Shape" class="cls-1" width="32" height="32" rx="3" ry="3"/>
+  <path class="cls-2" d="M10.367,8.531H20.633v7.9H10.367v-7.9Z"/>
+  <path class="cls-3" d="M10.367,20.952V19.823H20.633v1.129H10.367Z"/>
+  <path class="cls-3" d="M10.367,25.469V24.339H20.633v1.129H10.367Z"/>
+  <path id="Rectangle_1_copy" data-name="Rectangle 1 copy" class="cls-2" d="M25.2,8.531H35.463v7.9H25.2v-7.9Z"/>
+  <path id="Shape_9_copy" data-name="Shape 9 copy" class="cls-3" d="M25.2,20.952V19.823H35.463v1.129H25.2Z"/>
+  <path id="Shape_10_copy" data-name="Shape 10 copy" class="cls-3" d="M25.2,25.469V24.339H35.463v1.129H25.2Z"/>
+  <path id="Rectangle_1_copy_2" data-name="Rectangle 1 copy 2" class="cls-2" d="M-4.463,8.531H5.8v7.9H-4.463v-7.9Z"/>
+  <path id="Shape_9_copy_2" data-name="Shape 9 copy 2" class="cls-3" d="M-4.463,20.952V19.823H5.8v1.129H-4.463Z"/>
+  <path id="Shape_10_copy_2" data-name="Shape 10 copy 2" class="cls-3" d="M-4.463,25.469V24.339H5.8v1.129H-4.463Z"/>
+</svg>

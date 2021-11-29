@@ -1,0 +1,186 @@
+.col,
+.csf-field-icon .csf-icon-select {
+	float: right
+}
+.csf-field-background fieldset .csf-field {
+	margin: 0 0 0 1% !important
+}
+.csf-slider {
+	left: auto;
+	right: 4%
+}
+#customize-controls .button.cz_sk_btn {
+	padding: 0px 36px 0 18px !important
+}
+.wp-customizer .csf-field-group .csf-cloneable-item > .csf-cloneable-title {
+	padding: 10px 10px 10px 65px !important
+}
+#cz_modal_kit .csf-field-codevz_sizes i.fa-link,
+#cz_modal_kit .csf-field-codevz_sizes i.fa-link {
+	right: auto !important;
+	left: -17px !important
+}
+.csf-field-group .csf-field-codevz_sizes i.fa-link,
+.csf-field-group .csf-field-codevz_box_shadow i.fa-link {
+	left: 30px !important;
+	right: auto !important
+}
+.csf-customize-field .csf-field-color_picker .csf-title {
+	float: right !important
+}
+.csf-customize-field .csf-field-color_picker .csf-fieldset {
+	float: left !important
+}
+.csf-field-codevz_box_shadow .wp-picker-container {
+	right: auto;
+	left: 5px
+}
+.csf-field .wp-picker-open+.wp-picker-input-wrap {
+	width: 162px
+}
+#cz_modal_kit .csf-field .wp-picker-open+.wp-picker-input-wrap {
+	width: 134px
+}
+.csf-field .wp-picker-open+.wp-picker-input-wrap {
+	transform: translateX(-28%) !important
+}
+.customize-control-csf .wp-picker-open+.wp-picker-input-wrap {
+	transform: translateX(30%) !important
+}
+#cz_modal_kit .csf-field .wp-picker-holder {
+	transform: translateX(-30%)
+}
+.customize-control-csf .wp-picker-holder {
+	transform: translateX(-7%)
+}
+.cz_system_info {
+	margin: 20px 20px 0 0
+}
+.cz_system_info .cz_good,
+.cz_system_info .cz_error {
+	float: left
+}
+.cz_importer > i {
+	margin: 0 10px 0 0
+}
+.cz_demo .importer_settings {
+	padding: 20px 20px 20px 0 !important
+}
+.csf-modal-content .csf-field {
+	padding: 15px 2px 15px 30px !important
+}
+.csf-field-codevz_box_shadow .csf-field-color_picker {
+	right: auto;
+	left: 0
+}
+.csf-modal .demo_active ul li:last-child input {
+	float: right;
+	margin: 3px 0 36px 8px
+}
+.button.button-primary.csf-cloneable-add i,
+.button.csf-importer-add i {
+	margin: 0 -9px 0 10px
+}
+span.cz_skico {
+	right: 0;
+	left: auto
+}
+span.cz_skico_vc {
+	right: 3px
+}
+.csf-customize-field .csf-field .csf-fieldset {
+	margin: 0 !important
+}
+#customize-controls .wp-picker-input-wrap .button.wp-picker-clear {
+	height: 26px !important;
+	line-height: 24px !important;
+	font-size: 12px !important
+}
+#cz_modal_kit div.col.s12 a.button.cz_advance_bg i {
+	margin: 0 5px 0 0
+}
+.customize-pane-parent > .control-section:before {
+	left: auto;
+	right: 10px
+}
+.vc-disable-editor {
+	left: auto !important;
+	right: -10000px !important
+}
+.cz-remove-sidebar {
+	left: 40px;
+	right: auto
+}
+.csf-nav svg {
+	margin: 0 0 0 10px
+}
+.widget-content .csf-field:not(.csf-field-group) .csf-title {
+	float: right
+}
+.widget-content .csf-field:not(.csf-field-group) .csf-fieldset {
+	margin: 5px 40% 5px 0
+}
+.codevz_image_select > div i {
+	right: auto;
+	left: 20px
+}
+#customize-controls .sk_btn_preview_image {
+	right: 26px;
+	left: auto
+}
+#customize-controls .control-section .csf-field-group .csf-field-cz_sk .csf-fieldset .sk_btn_preview_image {
+	right: auto;
+	left: 60px
+}
+.vc_ui-panel-header .vc_ui-panel-header-controls {
+	float: left
+}
+.cz_video_tutorial {
+	right: auto;
+	left: 34px
+}
+.csf-icon-select .csf-icon-remove, 
+.rtl.wp-customizer .csf-field-group .csf-icon-select .button.csf-warning-primary.csf-icon-remove {
+	right: auto !important;
+	left: -17px !important
+}
+.s5 .csf-field .csf-fieldset,
+.s6 .csf-field .csf-fieldset {
+	margin-left: 0;
+	margin-right: 45%
+}
+.control-section-csf > li[id*="-_css_"],
+.control-section-csf .csf-field-checkbox li {
+	float: right
+}
+.control-section .csf-field-select .csf-title, 
+.control-section .csf-field-slider .csf-title, 
+.control-section .csf-field-text .csf-title, 
+.control-section .csf-field-group .csf-field-cz_sk .csf-title,
+.control-section .csf-field-switcher .csf-title,
+.control-section .csf-field-icon .csf-title {
+	float: right !important
+}
+.control-section .csf-field-switcher .csf-fieldset {
+	float: left !important
+}
+.edit_form_line .csf-field-icon .csf-icon-select {
+	float: right
+}
+.csf-field-icon .csf-icon-select .csf-icon-preview i {
+	margin: 0 5px 0 0
+}
+
+.rtl .vc_shortcode-param[data-param_type="dropdown"] select.wpb_vc_param_value,
+.rtl .vc_shortcode-param[data-param_type="dropdown"] select.wpb_vc_param_value option {
+	text-align: right
+}
+
+.rtl .edit_form_line .cz_sk_btn .cz_skico_vc{
+	right: 0;
+	top: -1px
+}
+
+.rtl .vc_ui-panel-header .vc_ui-panel-header-controls {
+	margin: 0
+}

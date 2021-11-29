@@ -1,0 +1,16 @@
+.cz-particles {
+	position: relative;
+	z-index: 0;
+	min-height: 300px !important
+}
+.cz-particles > * {
+	z-index: 1
+}
+.cz-particles canvas {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1
+}

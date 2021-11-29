@@ -1,0 +1,30 @@
+.cz_sml_inner {
+	position: relative;
+	overflow: hidden;
+	margin: 0 0 20px;
+	transition: all .3s ease-in-out
+}
+.cz_sml_overlay {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 5;
+	background: none;
+	transition: all .3s ease-in-out
+}
+.cz_sml_open .cz_sml_overlay {
+	opacity: 0;
+	visibility: hidden
+}
+.cz_sml > a {
+	display: inline-block
+}
+.cz_sml_open > a span:nth-child(1), 
+.cz_sml > a span:nth-child(2) {
+	display: none
+}
+.cz_sml_open > a span:nth-child(2) {
+	display: block
+}

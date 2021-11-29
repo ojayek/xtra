@@ -1,0 +1,79 @@
+.cz_lrpr {
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+	min-width: 100px;
+	max-width: 320px
+}
+.cz_vl #cz_r,
+.cz_vl #cz_pr,
+.cz_vr #cz_l,
+.cz_vr #cz_pr,
+.cz_vpr #cz_l,
+.cz_vpr #cz_r {
+	display: none
+}
+.cz_lrpr p {
+	margin: 0
+}
+.cz_lrpr img {
+	display: block;
+	margin: 0 auto 20px;
+	border-radius: 100%
+}
+.cz_lrpr a {
+	font-size: 14px;
+	margin: 10px 0 0;
+	display: block
+}
+.cz_lrpr input {
+	margin: 0 0 10px;
+	display: block;
+	width: 100%
+}
+.cz_lrpr input[type="checkbox"] {
+	display: inline-block
+}
+.cz_lrpr input[type="submit"] {
+	margin: 30px auto 20px;
+	display: table
+}
+.cz_msg {
+	display: none;
+	background: rgba(255, 0, 0, .05);
+	color: #f00;
+	padding: 15px 20px;
+	border-radius: 3px;
+	margin: 15px 0;
+}
+input.cz_loader {
+	position: relative !important;
+	font-size: 0 !important;
+	width: 30px !important;
+	height: 30px !important;
+	padding: 0 !important;
+	border-radius: 100% !important;
+	transform: translateX(-50%) !important;
+	box-shadow: none !important;
+	left: 45% !important;
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+	background: none !important;
+	border: 2px solid rgba(167, 167, 167, .3) !important;
+	border-right-color: #111 !important;
+	transition: none !important;
+	animation: rotateInfinite .6s linear infinite !important
+}
+.rtl input.cz_loader {
+	left: auto !important;
+	right: 45% !important
+}
+@keyframes rotateInfinite {
+	from {transform: rotate(0deg)}
+	to {transform: rotate(360deg)}
+}
+@keyframes xtraLrpAnimation {
+	0%, 10%, 20%, 50%, 80% {transform: translateY(0)}
+	40% {transform: translateY(-8px)}
+	60% {transform: translateY(-8px)}
+}

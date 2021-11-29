@@ -1,0 +1,38 @@
+.cz_free_position_element {
+	z-index: 99;
+	display: block;
+	position: absolute !important
+}
+.vc_cz_free_position_element:hover {
+	z-index: 9999
+}
+.cz_show_onhover,
+.wpb_wrapper:hover .cz_hide_onhover {
+	opacity: 0;
+	visibility: hidden;
+	transition: all .24s ease-in-out
+}
+.wpb_wrapper:hover .cz_show_onhover, 
+.cz_hide_onhover {
+	visibility: visible;
+	opacity: 1;
+	transition: all .24s ease-in-out
+}
+.cz_show_fadeup {transform: translateY(10px)}
+.cz_show_fadedown {transform: translateY(-10px)}
+.wpb_wrapper:hover .cz_show_fadeup, 
+.wpb_wrapper:hover .cz_show_fadedown {
+	transform: translateY(0)
+}
+.cz_show_fadeleft {transform: translateX(10px)}
+.cz_show_faderight {transform: translateX(-10px)}
+.wpb_wrapper:hover .cz_show_fadeleft, 
+.wpb_wrapper:hover .cz_show_faderight {
+	transform: translateX(0)
+}
+.cz_show_zoomin {transform: scale(.8)}
+.cz_show_zoomout {transform: scale(1.2)}
+.wpb_wrapper:hover .cz_show_zoomin,
+.wpb_wrapper:hover .cz_show_zoomout {
+	transform: scale(1)
+}

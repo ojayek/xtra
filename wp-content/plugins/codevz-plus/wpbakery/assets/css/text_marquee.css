@@ -1,0 +1,7 @@
+.cz_text_marquee {
+	width: 100%;
+	direction: ltr;
+	position: relative;
+	overflow: hidden;
+	font-size: 20px
+}

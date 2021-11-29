@@ -1,0 +1,87 @@
+.cz_popup_modal .cz_overlay {
+	z-index: 1
+}
+.cz_show_popup .cz_overlay {
+	display: block
+}
+.cz_popup_modal, 
+.compose-mode .vc_element.vc_cz_popup {
+	display: none;
+	z-index: 99999999;
+	position: fixed !important;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0
+}
+.cz_popup_in {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 500px;
+	min-width: 300px;
+	min-height: 30px;
+	max-height: 88%;
+	padding: 40px;
+	z-index: 2;
+	color: #111;
+	overflow: auto;
+	background: #fff;
+	transform-origin: center;
+	animation: CubicInPopup .4s cubic-bezier(.180, .890, .330, 1.270) forwards
+}
+@keyframes CubicInPopup {
+	from {transform: translate(-50%, -50%) scale(0.95)}
+	to {transform: translate(-50%, -50%) scale(1)}
+}
+.vc_element.vc_cz_popup {
+	overflow: visible !important
+}
+.cz_close_popup {
+	position: absolute;
+	top: 70px;
+	right: 70px;
+	margin: 0;
+	color: #fff;
+	font-size: 24px;
+	cursor: pointer;
+	z-index: 9;
+	width: 2em;
+	height: 2em;
+	line-height: 2em !important;
+	text-align: center;
+	border-radius: 50px;
+	mix-blend-mode: difference;
+	transform-origin: center center;
+	transition: all .3s ease-in-out
+}
+.cz_close_popup:hover {
+	transform: rotate(180deg)
+}
+.rtl .cz_close_popup {
+	left: 70px;
+	right: auto
+}
+.xtra-popup {
+	cursor: pointer
+}
+
+@media screen and (max-width:480px) {
+
+	.cz_popup_in {
+		max-height: 85%!important;
+		max-width: 90%!important;
+		min-width: 0;
+		animation: none;
+		box-sizing: border-box;
+		left: 5%;
+		transform: translate(0, -50%)
+	}
+	.cz_close_popup {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		font-size: 16px
+	}
+
+}

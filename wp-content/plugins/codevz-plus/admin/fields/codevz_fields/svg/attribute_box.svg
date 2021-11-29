@@ -1,0 +1,32 @@
+<svg id="Attribute_Box" data-name="Attribute Box" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffae00;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #282828;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #000;
+        stroke-width: 1px;
+      }
+
+      .cls-3, .cls-4 {
+        opacity: 0.3;
+      }
+    </style>
+  </defs>
+  <rect id="BG_Shape" data-name="BG Shape" class="cls-1" width="32" height="32" rx="3" ry="3"/>
+  <path id="Shape_7_copy_3" data-name="Shape 7 copy 3" class="cls-2" d="M18,17H16V15h2v2Zm-5,0H11V15h2v2ZM8,17H6V15H8v2Zm10,1H16V16h2v2Zm-5,0H11V16h2v2ZM8,18H6V16H8v2Z"/>
+  <path id="Shape_2_copy_3" data-name="Shape 2 copy 3" class="cls-2" d="M21.648,13.14l0.567-.567,4.006,4.006-0.567.567Zm4.006,2.639,0.567,0.567-4.006,4.006-0.567-.567ZM22.45,13.14l0.567-.567,4.006,4.006-0.567.567Zm4.006,2.639,0.567,0.567-4.006,4.006-0.567-.567Z"/>
+  <path class="cls-3" d="M4,11H28V22H4V11Z"/>
+  <path id="Rectangle_3_copy_11" data-name="Rectangle 3 copy 11" class="cls-4" d="M18.982,11h1.008V22H18.982V11Z"/>
+</svg>

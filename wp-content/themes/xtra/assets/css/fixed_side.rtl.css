@@ -1,0 +1,11 @@
+.fixed_side {
+	float: right
+}
+.is_fixed_side .inner_layout,
+.fixed_side_right {
+	float: left
+}
+.fixed_side .sf-menu > .cz > .sf-with-ul .cz_indicator {
+	right: auto;
+	left: 20px
+}

@@ -1,0 +1,549 @@
+@charset "UTF-8";
+
+/**
+ * RCU Admin Page Styles
+ *
+ * @category   Styles
+ * @version    1.0.4
+ * @since      1.0.0
+ */
+
+/*noinspection CssUnknownTarget*/
+@import url("https://files.rtl-theme.com/plugins/fonts/iransans/fonts-fa.css");
+
+.RTLCareUnitPage #wpcontent,
+.RTLCareUnitPage.auto-fold #wpcontent {
+    padding-right: 0;
+}
+
+.RCU *:not(.dashicons),
+.RCU-Fader {
+    font-family: IRANSans, Tahoma, Arial, sans-serif !important;
+}
+
+.RCU a:focus {
+    box-shadow: none;
+}
+
+.RCU .text-info {
+    color: #0073aa !important;
+}
+
+.RCU .text-success {
+    color: #46b450 !important;
+}
+
+.RCU .text-warning {
+    color: #ffb900 !important;
+}
+
+.RCU .text-danger {
+    color: #dc3232 !important;
+}
+
+.RCU .text-black {
+    color: #424242 !important;
+}
+
+.RCU .text-left {
+    text-align: left;
+}
+
+.RCU .text-right {
+    text-align: right;
+}
+
+.RCU .text-center {
+    text-align: center;
+}
+
+.RCU .text-justify {
+    text-align: justify;
+}
+
+.RCU .RCU-Header-Wrapper {
+    text-align: center;
+    margin: 0 0 1rem;
+    background: #fff;
+    border-bottom: 1px solid #e2e4e7;
+}
+
+.RCU .RCU-Header-Wrapper .RCU-Header {
+    clear: both;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    justify-content: center;
+}
+
+.RCU .RCU-Header-Wrapper .RCU-Header .RCU-Header-Logo {
+    margin-top: 30px;
+}
+
+.RCU .RCU-Header-Wrapper .RCU-Header-Tabs {
+    display: -ms-inline-grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+    vertical-align: top;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.RCU .RCU-Header-Wrapper .RCU-Header-Tabs .RCU-Header-Tab {
+    display: block;
+    color: inherit;
+    margin: 0 1rem;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 0.5rem 1rem .8rem;
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+.RCU .RCU-Header-Wrapper .RCU-Header-Tabs .RCU-Header-Tab:nth-child(1) {
+    -ms-grid-column: 1;
+}
+
+.RCU .RCU-Header-Wrapper .RCU-Header-Tabs .RCU-Header-Tab:nth-child(2) {
+    -ms-grid-column: 2;
+}
+
+.RCU .RCU-Header-Wrapper .RCU-Header-Tabs .RCU-Header-Tab:focus {
+    color: #191e23;
+    box-shadow: none;
+}
+
+.RCU .RCU-Header-Wrapper .RCU-Header-Tabs .RCU-Header-Tab.Active {
+    box-shadow: inset 0 -3px #007cba;
+    font-weight: 600;
+}
+
+.RCU .notice:not(.update-nag) {
+    display: none;
+}
+
+.RCU .RCU-Body-Wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.RCU .RCU-Body-Wrapper h2 {
+    padding: 1rem 0;
+    line-height: 1.4;
+}
+
+.RCU .RCU-Body-Wrapper h3 {
+    padding: 0;
+    font-weight: 400;
+}
+
+.RCU .RCU-Body-Wrapper .pass::before,
+.RCU .RCU-Body-Wrapper .good::before {
+    content: "\f147";
+    color: #46b450;
+}
+
+.RCU .RCU-Body-Wrapper .warning::before {
+    content: "\f460";
+    color: #ffb900;
+}
+
+.RCU .RCU-Body-Wrapper .info::before {
+    content: "\f348";
+    color: #00a0d2;
+}
+
+.RCU .RCU-Body-Wrapper .fail::before,
+.RCU .RCU-Body-Wrapper .error::before {
+    content: "\f335";
+    color: #dc3232;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Content-Wrapper .RCU-Content:first-of-type {
+    margin-top: 3rem;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Content-Wrapper .RCU-Content {
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Content-Wrapper .RCU-Content .notice {
+    margin: 5px 0 15px;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Content-Wrapper .RCU-Content .update-nag {
+    margin-bottom: 20px;
+    margin-right: 0;
+    display: block;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Box {
+    display: flex;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Box .Item {
+    color: #999;
+    flex: 2 0 50%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Box .Item span {
+    width: 100%;
+    color: #424242;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Box .BTN {
+    width: 100%;
+    display: block;
+    margin-bottom: 0;
+    margin-top: 2rem;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Box .BTN a,
+.RCU .RCU-Body-Wrapper .RCU-Box .BTN button {
+    color: #fff;
+    height: auto;
+    padding: 10px;
+    display: block;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    transition: .5s all;
+    background: #4fb545;
+    text-decoration: none;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Box .BTN button {
+    width: 100%;
+    border: none;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Box .BTN a:hover,
+.RCU .RCU-Body-Wrapper .RCU-Box .BTN button:hover {
+    background: #36772f;
+    transition: .5s all;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Accordion {
+    border: 1px solid #ccd0d4;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Accordion-Heading {
+    margin: 0;
+    color: inherit;
+    font-weight: 600;
+    font-size: inherit;
+    line-height: inherit;
+    border-top: 1px solid #ccd0d4;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Accordion-Heading:first-child {
+    border-top: none;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Accordion-Trigger {
+    background: #f8f9f9;
+    border: 0;
+    color: #32373c;
+    cursor: pointer;
+    display: flex;
+    font-weight: 400;
+    margin: 0;
+    padding: 1em 1.5em 1em 3.5em;
+    min-height: 46px;
+    position: relative;
+    text-align: right;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    transition: .5s all;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Accordion-Trigger:hover,
+.RCU .RCU-Body-Wrapper .RCU-Accordion-Trigger:active {
+    background: #e8e8e8;
+    transition: .5s all;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Accordion-Trigger:focus {
+    color: #191e23;
+    border: none;
+    box-shadow: none;
+    background-color: #f8f9f9;
+    transition: .5s all;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Accordion-Trigger .title {
+    pointer-events: none;
+    font-weight: 600;
+    flex-grow: 1;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Accordion-Trigger .icon,
+.RCU .RCU-Body-Wrapper .RCU-View-More .icon {
+    border: solid #555d66;
+    border-width: 0 0 2px 2px;
+    height: 0.5rem;
+    pointer-events: none;
+    position: absolute;
+    left: 1.5em;
+    top: 50%;
+    transform: translateY(-70%) rotate(-45deg);
+    width: 0.5rem;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Accordion-Trigger .badge {
+    padding: 0.1rem 0.5rem 0.15rem;
+    color: #32373c;
+    font-weight: 600;
+    margin-right: 0.5rem;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Accordion-Trigger .badge.blue {
+    border: 1px solid #00a0d2;
+    color: #00a0d2;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Accordion-Trigger .badge.orange {
+    border: 1px solid #ffb900;
+    color: #ffb900;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Accordion-Trigger .badge.red {
+    border: 1px solid #dc3232;
+    color: #dc3232;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Accordion-Trigger .badge.green {
+    border: 1px solid #46b450;
+    color: #46b450;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Accordion-Trigger .badge.purple {
+    border: 1px solid #826eb4;
+    color: #826eb4;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Accordion-Trigger .badge.gray {
+    border: 1px solid #ccd0d4;
+    color: #ccd0d4;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Accordion-Trigger[aria-expanded="true"] .icon,
+.RCU .RCU-Body-Wrapper .RCU-View-More[aria-expanded="true"] .icon {
+    transform: translateY(-30%) rotate(135deg)
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Accordion-Panel {
+    margin: 0;
+    background: #fff;
+    padding: 1em 1.5em;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Accordion-Panel[hidden] {
+    display: none;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Accordion-Panel a {
+    text-decoration: none;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Accordion-Panel a .dashicons {
+    font-size: 18px;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Accordion-Panel .actions {
+    margin-top: 13px;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Accordion-Panel .RCU-Product-Info {
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Product-Info-Span {
+    flex-wrap: wrap;
+    flex: 2 0 50%;
+    display: flex;
+    color: #999;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Product-Info-Span span:not(.dashicons) {
+    width: 100%;
+    margin-top: 10px;
+    color: #424242;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-View-More {
+    text-align: center;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-View-More button {
+    position: relative;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.RCU .RCU-Body-Wrapper .spinner {
+    float: none;
+    width: 23px;
+    height: 23px;
+    margin: 0 4px;
+    flex-shrink: 0;
+    visibility: visible;
+    background-size: 23px 23px;
+    background-position: center;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Troubleshooting-Btn {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.RCU-Fader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: auto;
+    animation: RcuLoading .7s infinite 0s ease-in-out;
+    animation-direction: alternate;
+    text-shadow: 0 0 1px white;
+}
+
+.RCU-Page-Loading {
+    background-color: rgba(0, 0, 0, .8);
+    color: #eeeeee;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2147483647;
+    position: fixed;
+}
+
+.RCU-Page-Loading .RCU-Fader {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.RCU-No-Select,
+.RCU-No-Select * {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Content-Wrapper .RCU-Content .PingNotify {
+    margin-bottom: 0;
+}
+
+.RCU .RCU-Content.Diagnose-Wrapper hr.Separator {
+    margin: 20px 0 30px;
+}
+
+.RCU .Diagnose-Area .RCU-Accordion-Panel textarea {
+    width: 100%;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Content-Wrapper .RCU-Setting-Area-Title {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    font-size: 15px;
+}
+
+.RCU .RCU-Body-Wrapper .RCU-Content-Wrapper .RCU-Content.RCU-Setting-Area {
+    margin-top: 1.5rem;
+}
+
+.RCU .RCU-Setting-Area .RCU-Setting-Area-DESC {
+    width: 100%;
+}
+
+.RCU .RCU-Setting-Area .RCU-Setting-Area-DESC p {
+    font-size: 14px;
+}
+
+.RCU .RCU-Setting-Area .RCU-Setting-Area-DESC input {
+    padding: 5px 0 3px 0;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 15px;
+    width: 100%;
+}
+
+.RCU .RCU-Setting-Area .RCU-Setting-Area-Form {
+    width: 100%;
+}
+
+.RCU .RCU-Setting-Area .RCU-Setting-Area-Form .RCU-Setting-Area-BTN.Hide,
+.RCU .RCU-Setting-Area .RCU-Setting-Area-Form .RCU-Setting-Area-BTN.Disable {
+    background-color: #dc3131;
+}
+
+.RCU .RCU-Setting-Area .RCU-Setting-Area-Form .RCU-Setting-Area-BTN.Hide:hover,
+.RCU .RCU-Setting-Area .RCU-Setting-Area-Form .RCU-Setting-Area-BTN.Disable:hover {
+    background-color: #972121;
+}
+
+.RTLCareUnitPage #wpbody-content > .notice {
+    display: none;
+}
+
+@media screen and (max-width: 782px) {
+    .RCU .RCU-Body-Wrapper {
+        margin: 0 12px;
+        width: auto;
+    }
+
+    .RCU .RCU-Body-Wrapper .RCU-Content .notice {
+        margin: 5px 5px 15px;
+    }
+
+    .RCU .RCU-Body-Wrapper .RCU-Content .update-nag {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .RCU .RCU-Body-Wrapper .RCU-Content .RCU-Accordion-Trigger {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .RCU .RCU-Body-Wrapper .RCU-Content .RCU-Accordion-Trigger .badge {
+        margin: 1em 0 0;
+    }
+}
+
+@media only screen and (max-width: 1004px) {
+    .RCU .RCU-Body-Wrapper {
+        margin: 0 22px;
+        width: auto;
+    }
+}
+
+@keyframes RcuLoading {
+    0% {
+        opacity: 0.08;
+        filter: blur(5px);
+        letter-spacing: 3px;
+    }
+}

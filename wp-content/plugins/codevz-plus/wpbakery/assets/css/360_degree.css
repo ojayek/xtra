@@ -1,0 +1,91 @@
+.cz_product-viewer-wrapper {
+	text-align: center;
+	padding: 2em 0
+}
+.cz_product-viewer-wrapper > div {
+	display: inline-block;
+	width:100%
+}
+.cz_product-viewer-wrapper .product-viewer {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	overflow: hidden
+}
+.cz_product-viewer-wrapper img {
+	display: block;
+	position: relative;
+	z-index: 1
+}
+.cz_product-viewer-wrapper .product-sprite {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background-size: 100%;
+	opacity: 0;
+	transition: opacity .3s
+}
+.cz_product-viewer-wrapper.loaded .product-sprite {
+	opacity: 1;
+	cursor: ew-resize
+}
+.cz_product-viewer-handle {
+	position: relative;
+	z-index: 2;
+	width: 60%;
+	max-width: 300px;
+	border-radius: 50em;
+	margin: 1em auto 3em;
+	height: 4px;
+	background: #aaa
+}
+.cz_product-viewer-handle .fill {
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	border-radius: inherit;
+	background: #ddd;
+	transform: scaleX(0);
+	transform-origin: left center;
+	transition: transform .5s
+}
+.no-csstransitions .cz_product-viewer-handle .fill {
+	display: none
+}
+.loaded .cz_product-viewer-handle .fill {
+	opacity: 0;
+	transition: transform .3s, opacity .2s .3s
+}
+.cz_product-viewer-handle .handle {
+	position: absolute;
+	z-index: 2;
+	display: inline-block;
+	height: 2.4em;
+	width: 2.4em;
+	line-height: 2.4em;
+	left: 0;
+	top: 50%;
+	background: #999;
+	color: #fff;
+	border-radius: 50%;
+	white-space: nowrap;
+	overflow: hidden;
+	transform: translate(-50%,-50%) scale(0);
+	transition: box-shadow .2s
+}
+.loaded .cz_product-viewer-handle .handle {
+	transform: translate(-50%,-50%) scale(1);
+	animation: cz_bounce .3s forwards;
+	animation-fill-mode: both;
+	cursor: ew-resize
+}
+@keyframes cz_bounce {
+	0% {transform: translate(-50%,-50%) scale(0)}
+	60% {transform: translate(-50%,-50%) scale(1.1)}
+	100% {transform: translate(-50%,-50%) scale(1)}
+}

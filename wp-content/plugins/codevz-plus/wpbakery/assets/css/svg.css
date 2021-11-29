@@ -1,0 +1,16 @@
+.cz_svg {
+	margin: 0 auto;
+	background-size: cover;
+	background-position: center center;
+	max-width: 100%
+}
+.cz_svg svg {
+	position: relative;
+	display: block;
+	width: calc(100% + 2px);
+	margin: 0 -1px;
+	height: 100%;
+}
+.cz_svg path {
+	fill-rule: evenodd
+}

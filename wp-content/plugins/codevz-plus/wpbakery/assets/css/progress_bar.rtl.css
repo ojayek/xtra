@@ -1,0 +1,14 @@
+.progress_bar b {
+	right: auto;
+	left: 0
+}
+.pbar2 b {
+	right: auto;
+	left: -20px
+}
+.cz_progress_bar_icon > div,
+.progress_bar p,
+.progress_bar span {
+	left: auto;
+	right: 0
+}

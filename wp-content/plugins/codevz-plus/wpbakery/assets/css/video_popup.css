@@ -1,0 +1,126 @@
+.cz_video_popup {
+	position: relative;
+	margin: 0 auto
+}
+.cz_video_inline .cz_vp_c {
+	overflow: hidden
+}
+.cz_video_popup img {
+	margin: 0 auto;
+	width: 100%
+}
+.cz_video_popup a {
+	position: relative;
+	z-index: 1;
+	display: block;
+	border: 0;
+	overflow: hidden;
+	border-radius: inherit
+}
+.cz_video_popup iframe {
+	position: absolute;
+	z-index: 0;
+	left: 0;
+	top: 0
+}
+.cz_video_popup .cz_vp_inner {
+	z-index: 2;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 100px;
+	color: #fff;
+	background: #303030;
+	font-size: 20px;
+	max-width: 98%;
+	white-space: nowrap
+}
+.cz_video_popup h4 {
+	padding: 0 40px 0 20px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+	font-size: inherit;
+	font-family: inherit;
+	color: inherit
+}
+.rtl .cz_video_popup h4 {
+	padding: 0 20px 0 40px
+}
+.cz_video_popup span {
+	display: inline-block;
+	vertical-align: middle;
+	border: 0;
+	font-size: 24px;
+	width: 2em;
+	height: 2em;
+	line-height: 2em;
+	padding: 22px;
+	color: #000;
+	text-align: center;
+	background: #fff;
+	border-radius: 100px;
+	box-sizing: content-box;
+	transform: scale(1.02,1.02);
+	transition: all .2s ease-in-out
+}
+.cz_video_popup .fa-play {
+	transform: translateX(10%)
+}
+.cz_video_popup:hover span {
+	transform: scale(1.1, 1.1)
+}
+i.close_inline_video {
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	z-index: 99;
+	color: #111;
+	opacity: .5;
+	width: 1em;
+	height: 1em;
+	line-height: 1em;
+	cursor: pointer;
+	padding: 14px;
+	font-size: 18px;
+	background: #fff;
+	text-align: center;
+	border-radius: 100px;
+	transition: all .2s ease-in-out
+}
+.cz_video_popup:hover i.close_inline_video {
+	opacity: 1
+}
+.cz_video_popup_tl .cz_vp_inner {
+	top: 30px;
+	left: 30px;
+	transform: none
+}
+.cz_video_popup_tr .cz_vp_inner {
+	top: 30px;
+	left: auto;
+	right: 30px;
+	transform: none
+}
+.cz_video_popup_bl .cz_vp_inner {
+	top: auto;
+	bottom: 30px;
+	left: 30px;
+	transform: none
+}
+.cz_video_popup_br .cz_vp_inner {
+	top: auto;
+	left: auto;
+	right: 30px;
+	bottom: 30px;
+	transform: none
+}
+
+@media screen and (max-width:480px) {
+
+	.cz_video_popup div {
+		width: fit-content
+	}
+
+}

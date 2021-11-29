@@ -1,0 +1,1629 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Xtra v3.9.11\n"
+"POT-Creation-Date: 2021-11-23 02:33-0800\n"
+"PO-Revision-Date: 2021-11-23 02:36-0800\n"
+"Last-Translator: \n"
+"Language-Team: سان کد\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;_n;esc_html_e;esc_attr_e;_n_noop;esc_html__;"
+"esc_attr__;__;_n_noop;_n_noop:1,2;_n:1,2;_nx\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/class-dashboard.php:42
+msgid "Activation"
+msgstr "فعالسازی"
+
+#: classes/class-dashboard.php:43
+msgid "Demo Importer"
+msgstr "درون ریز دمو"
+
+#: classes/class-dashboard.php:44
+msgid "Page Importer"
+msgstr "درون ریز صفحه"
+
+#: classes/class-dashboard.php:45 classes/class-dashboard.php:1200
+msgid "Install Plugins"
+msgstr "نصب افزونه ها"
+
+#: classes/class-dashboard.php:46 classes/class-dashboard.php:872
+#: classes/class-dashboard.php:1450
+msgid "Theme Options"
+msgstr "تنظیمات قالب"
+
+#: classes/class-dashboard.php:47 classes/class-dashboard.php:1741
+msgid "System Status"
+msgstr "وضعیت سرور"
+
+#: classes/class-dashboard.php:48
+msgid "Uninstall Demo"
+msgstr "حذف دمو"
+
+#: classes/class-dashboard.php:49 classes/class-dashboard.php:1822
+msgid "Feedback"
+msgstr "بازخورد"
+
+#: classes/class-dashboard.php:85 classes/class-dashboard.php:863
+msgid "Codevz Plus"
+msgstr "مکمل قالب اکسترا"
+
+#: classes/class-dashboard.php:91 classes/class-dashboard.php:865
+msgid "Elementor Page Builder"
+msgstr "صفحه ساز المنتور"
+
+#: classes/class-dashboard.php:96 classes/class-dashboard.php:864
+msgid "WPBakery Page Builder"
+msgstr "صفحه ساز ویژوال کامپوزر"
+
+#: classes/class-dashboard.php:102 classes/class-dashboard.php:866
+#: classes/class-dashboard.php:874 classes/class-dashboard.php:1455
+msgid "Revolution Slider"
+msgstr "اسلایدر روولوشن"
+
+#: classes/class-dashboard.php:108
+msgid "Woocommerce"
+msgstr "فروشگاه"
+
+#: classes/class-dashboard.php:113 classes/class-dashboard.php:867
+msgid "Contact Form 7"
+msgstr "فرم تماس 7"
+
+#: classes/class-dashboard.php:118
+msgid "Autoptimize"
+msgstr "بهینه سازی خودکار"
+
+#: classes/class-dashboard.php:123
+msgid "EWWW Image Optimizer"
+msgstr "بهینه ساز تصاویر"
+
+#: classes/class-dashboard.php:790
+msgid "Title"
+msgstr "عنوان"
+
+#: classes/class-dashboard.php:790 classes/class-dashboard.php:803
+#: classes/class-dashboard.php:899 classes/class-dashboard.php:932
+msgid "XTRA"
+msgstr "اکسترا"
+
+#: classes/class-dashboard.php:803
+msgid "Description"
+msgstr "توضیحات"
+
+#: classes/class-dashboard.php:857
+msgid "of"
+msgstr "از"
+
+#: classes/class-dashboard.php:858
+msgid "Close"
+msgstr "بستن"
+
+#: classes/class-dashboard.php:859
+msgid "Installing"
+msgstr "نصب"
+
+#: classes/class-dashboard.php:860
+msgid "Activated"
+msgstr "فعال"
+
+#: classes/class-dashboard.php:861
+msgid "Importing"
+msgstr "درون ریزی"
+
+#: classes/class-dashboard.php:862
+msgid "Imported"
+msgstr "درون ریزی شد"
+
+#: classes/class-dashboard.php:868 classes/class-dashboard.php:1454
+msgid "WooCommerce"
+msgstr "ووکامرس"
+
+#: classes/class-dashboard.php:869
+msgid "Downloading"
+msgstr "در حال دانلود"
+
+#: classes/class-dashboard.php:870
+msgid "Demo Files"
+msgstr "فایل دمو"
+
+#: classes/class-dashboard.php:871
+msgid "Downloaded"
+msgstr "دانلود شد"
+
+#: classes/class-dashboard.php:873 classes/class-dashboard.php:1451
+msgid "Widgets"
+msgstr "ابزارک ها"
+
+#: classes/class-dashboard.php:875 classes/class-dashboard.php:1452
+msgid "Pages & Posts"
+msgstr "صفحات و پست ها"
+
+#: classes/class-dashboard.php:876
+msgid "Images"
+msgstr "تصاویر"
+
+#: classes/class-dashboard.php:877
+msgid ""
+"PHP error 500, Internal server error, Please check your server error log "
+"file or contact with support."
+msgstr ""
+"خطای شماره 500 - خطای داخلی سرور، لطفا با پشتیبان هاست خود تماس بگیرید."
+
+#: classes/class-dashboard.php:878
+msgid ""
+"PHP error 503, Internal server error, Please try again with same import demo."
+msgstr "خطای شماره 503 - خطای داخلی سرور، لطفا دوباره تلاش کنید."
+
+#: classes/class-dashboard.php:879
+msgid ""
+"An error has occured, Please deactivate all plugins except theme plugins and "
+"try again, If still have same issue, Please submit ticket to theme author."
+msgstr ""
+"مشکلی رخ داده است، لطفا تمامی افزونه های اضافی به جز مکمل اکسترا را غیرفعال "
+"کنید و در صورت تداوم مشکل به پشتیبانی قالب تیکت بزنید."
+
+#: classes/class-dashboard.php:880
+msgid "Choose at least one feature to import."
+msgstr "حداقل یک مورد را برای درون ریزی انتخاب کنید."
+
+#: classes/class-dashboard.php:881
+msgid "Message box is empty, Please fill the box then submit."
+msgstr "باکس پیغام خالی است، لطفا پیام خود را وارد کنید."
+
+#: classes/class-dashboard.php:882
+msgid "URL input is empty, Please fill the input then submit."
+msgstr "باکس آدرس صفحه خالی است، لطفا آدرس صفحه را وارد کنید."
+
+#: classes/class-dashboard.php:936
+#, php-format
+msgid "Welcome to %s WordPress Theme"
+msgstr "به قالب %s خوش آمدید"
+
+#: classes/class-dashboard.php:936
+msgid "Current version:"
+msgstr "نسخه نصب شده:"
+
+#: classes/class-dashboard.php:978 classes/class-dashboard.php:1485
+msgid "https://xtratheme.com/docs"
+msgstr "https://xtratheme.ir/docs"
+
+#: classes/class-dashboard.php:978
+msgid "Documentation"
+msgstr "مستندات"
+
+#: classes/class-dashboard.php:979
+msgid "https://www.youtube.com/channel/UCrS1L4oeTRfU1hvIo1gJGjg/videos"
+msgstr "https://xtratheme.ir/video/"
+
+#: classes/class-dashboard.php:979
+msgid "Video Tutorials"
+msgstr "ویدئو آموزشی"
+
+#: classes/class-dashboard.php:980
+msgid "https://xtratheme.com/changelog"
+msgstr "https://xtratheme.ir/changelog"
+
+#: classes/class-dashboard.php:980
+msgid "Change Log"
+msgstr "لیست تغییرات"
+
+#: classes/class-dashboard.php:981
+msgid "https://codevz.ticksy.com"
+msgstr ""
+"https://www.rtl-theme.com/xtra-corporate-woocommerce-theme/discussions/?"
+"aff=xtratheme.ir"
+
+#: classes/class-dashboard.php:981
+msgid "Support"
+msgstr "پشتیبانی"
+
+#: classes/class-dashboard.php:982
+msgid "https://xtratheme.com/faqs"
+msgstr "https://xtratheme.ir/faqs"
+
+#: classes/class-dashboard.php:982
+msgid "F.A.Q"
+msgstr "سوالات متداول"
+
+#: classes/class-dashboard.php:1060
+msgid "Activation Certificate"
+msgstr "گواهی فعال سازی"
+
+#: classes/class-dashboard.php:1062
+msgid "Deregister License"
+msgstr "لغو لایسنس"
+
+#: classes/class-dashboard.php:1066
+msgid "Your Purchase Code"
+msgstr "کد خرید شما"
+
+#: classes/class-dashboard.php:1070
+msgid "Purchase date:"
+msgstr "تاریخ خرید:"
+
+#: classes/class-dashboard.php:1072
+msgid "Support until:"
+msgstr "تاریخ اعتبار پشتیبانی:"
+
+#: classes/class-dashboard.php:1080
+msgid ""
+"Your support has been expired, Click on below link and extend your support."
+msgstr ""
+"پشتیبانی شما تمام شده است، برای تمدید پشتیبانی بر روی لینک زیر کلیک کنید."
+
+#: classes/class-dashboard.php:1084
+msgid "Buy extended support or new license"
+msgstr "تمدید پشتیبانی یا خرید لایسنس جدید"
+
+#: classes/class-dashboard.php:1124
+msgid "License Activation"
+msgstr "فعال سازی"
+
+#: classes/class-dashboard.php:1135
+msgid "Your license code on this website deregistered successfully."
+msgstr "کد خرید شما با موفقیت غیر فعال شد."
+
+#: classes/class-dashboard.php:1143
+msgid "Please insert a valid license code."
+msgstr "لطفا کد خرید را درست وارد کنید."
+
+#: classes/class-dashboard.php:1153 classes/class-dashboard.php:1470
+#: functions.php:45
+msgid "Congratulation"
+msgstr "تبریک"
+
+#: classes/class-dashboard.php:1153 functions.php:46
+msgid "Your theme has been activated successfully."
+msgstr "قالب با موفقیت فعال شد."
+
+#: classes/class-dashboard.php:1173
+msgid ""
+"Please activate your theme via purchase code to access theme features, "
+"updates and demo importer."
+msgstr ""
+"برای دسترسی به تمامی قابلیت های قالب اعم از بروز رسانی خودکار و درون ریزی "
+"دمو ها لطفا قالب را فعال نمایید."
+
+#: classes/class-dashboard.php:1175
+msgid "Please insert purchase code ..."
+msgstr "لطفا کد خرید را وارد کنید..."
+
+#: classes/class-dashboard.php:1175 classes/class-dashboard.php:1247
+msgid "Activate"
+msgstr "فعالسازی"
+
+#: classes/class-dashboard.php:1177
+msgid "How to find purchase code?"
+msgstr "کد خرید را از کجا پیدا کنم؟"
+
+#: classes/class-dashboard.php:1179
+msgid "Buy new license"
+msgstr "خرید لایسنس جدید"
+
+#: classes/class-dashboard.php:1221
+msgid "Required"
+msgstr "الزامی"
+
+#: classes/class-dashboard.php:1225
+msgid "Recommended"
+msgstr "پیشنهادی"
+
+#: classes/class-dashboard.php:1238
+msgid "Private Repository"
+msgstr "دانلود از اکسترا تم"
+
+#: classes/class-dashboard.php:1238
+msgid "Premium"
+msgstr "افزونه اختصاصی"
+
+#: classes/class-dashboard.php:1240
+msgid "WordPress Repository"
+msgstr "دانلود از وردپرس"
+
+#: classes/class-dashboard.php:1240
+msgid "Free version"
+msgstr "افزونه رایگان"
+
+#: classes/class-dashboard.php:1249
+msgid "Activated successfully"
+msgstr "با موفقیت فعال شده"
+
+#: classes/class-dashboard.php:1253
+msgid "Install & Activate"
+msgstr "نصب و فعالسازی"
+
+#: classes/class-dashboard.php:1255
+msgid "Installed & Activated"
+msgstr "نصب شده و فعال شده"
+
+#: classes/class-dashboard.php:1259 classes/class-dashboard.php:1944
+msgid "Please wait"
+msgstr "لطفا صبر کنید"
+
+#: classes/class-dashboard.php:1277
+msgid ""
+"You have installed all the plugins and there is no any plugin to install."
+msgstr "همه افزونه ها نصب شده اند."
+
+#: classes/class-dashboard.php:1300
+msgid "Fitlers:"
+msgstr "فیلتر:"
+
+#: classes/class-dashboard.php:1303 classes/class-dashboard.php:1423
+#: classes/class-dashboard.php:1435
+msgid "WPBakery"
+msgstr "ویژوال کامپوزر"
+
+#: classes/class-dashboard.php:1304 classes/class-dashboard.php:1421
+#: classes/class-dashboard.php:1436
+msgid "Elementor"
+msgstr "المنتور"
+
+#: classes/class-dashboard.php:1307
+msgid "e.g. business, rtl, elementor, service"
+msgstr "برای مثال: تجاری، المنتور، خدمات"
+
+#: classes/class-dashboard.php:1354
+msgid "Unlock"
+msgstr "فعالسازی"
+
+#: classes/class-dashboard.php:1358 classes/class-dashboard.php:1542
+msgid "Import"
+msgstr "درون ریزی"
+
+#: classes/class-dashboard.php:1364 classes/class-dashboard.php:1944
+msgid "Uninstall"
+msgstr "پاکسازی"
+
+#: classes/class-dashboard.php:1378
+msgid "Preview"
+msgstr "پیش نمایش"
+
+#: classes/class-dashboard.php:1395 classes/class-dashboard.php:1486
+msgid "Back to demos"
+msgstr "برگشت به دمو ها"
+
+#: classes/class-dashboard.php:1415
+msgid "Welcome to"
+msgstr "خوش آمدید"
+
+#: classes/class-dashboard.php:1415
+msgid "Xtra Demo Importer Wizard"
+msgstr "درون ریز دمو اکسترا"
+
+#: classes/class-dashboard.php:1417
+msgid "Selected demo:"
+msgstr "دموی انتخاب شده:"
+
+#: classes/class-dashboard.php:1419
+msgid "Live preview:"
+msgstr "پیش نمایش:"
+
+#: classes/class-dashboard.php:1432
+msgid "Choose page builder:"
+msgstr "صفحه ساز را انتخاب کنید:"
+
+#: classes/class-dashboard.php:1436
+msgid "Elementor version will be available soon."
+msgstr "نسخه المنتور به زودی ارائه خواهد شد."
+
+#: classes/class-dashboard.php:1439
+msgid ""
+"By checking this field, wizard will import Arabic version of current demo "
+"that you have selected."
+msgstr ""
+"با انتخاب این گزینه شما میتوانید نسخه انگلیسی این دمو را درون ریزی کنید."
+
+#: classes/class-dashboard.php:1439
+msgid "RTL version?"
+msgstr "نسخه انگلیسی؟"
+
+#: classes/class-dashboard.php:1446
+msgid "Full Import"
+msgstr "درون ریزی کامل"
+
+#: classes/class-dashboard.php:1447
+msgid "Custom Import"
+msgstr "درون ریزی سفارشی"
+
+#: classes/class-dashboard.php:1453
+msgid "Images & Media"
+msgstr "تصاویر"
+
+#: classes/class-dashboard.php:1471
+msgid "Your website has been imported successfully."
+msgstr "دمو درخواستی با موفقیت درون ریزی شد."
+
+#: classes/class-dashboard.php:1473
+msgid "View your website"
+msgstr "مشاهده سایت"
+
+#: classes/class-dashboard.php:1474
+msgid "Customize webiste"
+msgstr "شخصی سازی"
+
+#: classes/class-dashboard.php:1482
+msgid "Error!"
+msgstr "خطا!"
+
+#: classes/class-dashboard.php:1483 classes/class-dashboard.php:2259
+msgid "An error has occured, Please try again."
+msgstr "خطایی رخ داده است، لطفا دوباره سعی کنید."
+
+#: classes/class-dashboard.php:1485
+msgid "Troubleshooting"
+msgstr "عیب یابی"
+
+#: classes/class-dashboard.php:1499
+msgid "Prev Step"
+msgstr "مرحله قبل"
+
+#: classes/class-dashboard.php:1502
+msgid "Getting Started"
+msgstr "شروع"
+
+#: classes/class-dashboard.php:1503
+msgid "Choose Builder"
+msgstr "انتخاب صفحه ساز"
+
+#: classes/class-dashboard.php:1504
+msgid "Configuration"
+msgstr "تنظیمات"
+
+#: classes/class-dashboard.php:1505
+msgid "Please wait, Importing"
+msgstr "در حال درون ریزی، لطفا صبر کنید"
+
+#: classes/class-dashboard.php:1509
+msgid "Next Step"
+msgstr "مرحله بعد"
+
+#: classes/class-dashboard.php:1528
+msgid "Single Page Importer"
+msgstr "درون ریز صفحه تکی"
+
+#: classes/class-dashboard.php:1532
+msgid ""
+"The demo page you want to import may have a second color, To avoid the color "
+"problem, set a second color for your site from Theme Options > General > "
+"Colors"
+msgstr ""
+"شما یک رنگ اصلی در تنظیمات قالب خود دارید و اگر صفحه ای را درون ریزی کنید که "
+"شامل دو رنگ باشد به درستی درون ریزی نخواهد شد، برای جلوگیری از این حالت شما "
+"می توانید برای قالب خود در تنظیمات قالب > عمومی > رنگ ها و استایل ها، رنگ "
+"دوم در نظر بگیرید و سپس اقدام به درون ریزی صفحه نمایید."
+
+#: classes/class-dashboard.php:1536
+msgid ""
+"Insert a demo page URL and click on import button then wait for the process "
+"to complete."
+msgstr ""
+"لطفا آدرس صفحه ای که میخواهید درون ریزی کنید وارد کنید و روی دکمه درون ریزی "
+"کلیک کنید و منتظر بمانید."
+
+#: classes/class-dashboard.php:1540
+msgid "Insert the demo link ..."
+msgstr "آدرس صفحه ..."
+
+#: classes/class-dashboard.php:1568
+msgid "Please insert a valid URL"
+msgstr "لطفا آدرس صفحه را درست وارد کنید"
+
+#: classes/class-dashboard.php:1589
+msgid "Enable allow_url_fopen on your server then you can import page."
+msgstr ""
+"لطفا قابلیت allow_url_fopen را در سرور خود فعال کنید و دوباره سعی کنید."
+
+#: classes/class-dashboard.php:1659
+msgid "Page imported successfully."
+msgstr "صفحه مورد نظر با موفقیت درون ریزی شد."
+
+#: classes/class-dashboard.php:1687
+msgid "Error, Please try again ..."
+msgstr "خطایی رخ داده است، لطفا دوباره سعی کنید."
+
+#: classes/class-dashboard.php:1698
+msgid "Server not responding, Please make sure your link is valid."
+msgstr ""
+"پاسخی از سرور دریافت نشد، لطفا مطمئن شوید آدرس صفحه را به درستی وارد کرده "
+"اید."
+
+#: classes/class-dashboard.php:1707
+msgid "Something went wrong, Please try again ..."
+msgstr "مشکلی رخ داده است، لطفا چند ثانیه بعد دوباره سعی کنید."
+
+#: classes/class-dashboard.php:1748 classes/class-dashboard.php:1752
+msgid "Server PHP Version"
+msgstr "ورژن PHP سرور"
+
+#: classes/class-dashboard.php:1748 classes/class-dashboard.php:1760
+#: classes/class-dashboard.php:1772 classes/class-dashboard.php:1784
+#: classes/class-dashboard.php:1795 classes/class-dashboard.php:1799
+msgid "Good"
+msgstr "خوب"
+
+#: classes/class-dashboard.php:1752
+msgid "PHP 8.0 or above recommended"
+msgstr "نسخه php 8 و بالاتر پیشنهاد می شود"
+
+#: classes/class-dashboard.php:1760 classes/class-dashboard.php:1764
+msgid "Server PHP Memory Limit"
+msgstr "Server PHP Memory Limit"
+
+#: classes/class-dashboard.php:1764
+msgid "128M recommended"
+msgstr "128مگابایت پیشنهاد می شود"
+
+#: classes/class-dashboard.php:1772 classes/class-dashboard.php:1776
+msgid "Server PHP Post Max Size"
+msgstr "Server PHP Post Max Size"
+
+#: classes/class-dashboard.php:1776
+msgid "8 recommended"
+msgstr "8 توصیه می شود"
+
+#: classes/class-dashboard.php:1784
+msgid "Server PHP Max Execution Time"
+msgstr "Server PHP Max Execution Time"
+
+#: classes/class-dashboard.php:1788
+msgid "PHP Max Execution Time"
+msgstr "PHP Max Execution Time"
+
+#: classes/class-dashboard.php:1788
+msgid "30 recommended"
+msgstr "30 توصیه می شود"
+
+#: classes/class-dashboard.php:1795 classes/class-dashboard.php:1799
+msgid "Server PHP"
+msgstr "Server PHP"
+
+#: classes/class-dashboard.php:1795 classes/class-dashboard.php:1799
+msgid "Active"
+msgstr "فعال"
+
+#: classes/class-dashboard.php:1803
+msgid "PHP cURL or allow_url_fopen is required."
+msgstr "PHP cURL یا allow_url_fopen لازم است."
+
+#: classes/class-dashboard.php:1803
+msgid "Contact with your server support."
+msgstr "لطفا با پشتیبانی هاست خود تماس بگیرید."
+
+#: classes/class-dashboard.php:1826
+msgid ""
+"Please help us improve the XTRA theme, we have added a feedback form, you "
+"can send us your comments and criticisms."
+msgstr ""
+"لطفا ما را در راستای ارتقاء هر چه بهتره قالب اکسترا یاری نمائید و با استفاده "
+"از فرم زیر پیشنهادات و انتقادات خودتان را با ما در میان بگذارید."
+
+#: classes/class-dashboard.php:1832
+msgid ""
+"Thanks for purchasing the XTRA theme; to improve the XTRA theme, through the "
+"following form, you can send your feedback such as report a bug, request a "
+"feature, request a demo, ask non-support questions, etc."
+msgstr ""
+"با سپاس از انتخاب قالب اکسترا، شما می توانید در این بخش نظرات، پیشنهادات و "
+"انتقادات خود را با ما در میان بگذارید."
+
+#: classes/class-dashboard.php:1838
+msgid "Submit"
+msgstr "ارسال"
+
+#: classes/class-dashboard.php:1884
+msgid "Your message has been sent successfully."
+msgstr "پیام شما با موفقیت ارسال شد."
+
+#: classes/class-dashboard.php:1893
+msgid "Could not send your message, Please try again."
+msgstr "پیام شما ارسال نشد، لطفا دوباره سعی کنید."
+
+#: classes/class-dashboard.php:1904
+msgid "There is no message to send, Please try again."
+msgstr ""
+"پیامی برای ارسال وجود ندارد، لطفا پیام خود را وارد و دوباره ارسال کنید."
+
+#: classes/class-dashboard.php:1921
+msgid "Uninstall Demo(s)"
+msgstr "پاک کردن دمو"
+
+#: classes/class-dashboard.php:1923
+msgid ""
+"In this list you can see demos imported on your site previously, You can "
+"uninstall any demo data."
+msgstr "در این صفحه شما میتوانید دمو هایی که قبلا درون ریزی کردید را پاک کنید."
+
+#: classes/class-dashboard.php:1956
+msgid "You have not imported any demo yet."
+msgstr "شما دمویی تا کنون درون ریزی نکردید."
+
+#: classes/class-dashboard.php:1968
+msgid "Are you sure for this?"
+msgstr "آیا مطمئن هستید؟"
+
+#: classes/class-dashboard.php:1970
+msgid ""
+"This will be deleted all your website data such as posts, pages, "
+"attachments, theme options, sliders, etc. and there is no undo button for "
+"this action."
+msgstr ""
+"این عملیات تمامی اطلاعات وب سایت شما اعم از تصاویر، صفحات و پست ها رو پاک "
+"میکند."
+
+#: classes/class-dashboard.php:1974
+msgid "No, never mind"
+msgstr "نه بیخیال"
+
+#: classes/class-dashboard.php:1975
+msgid "Uninstalling, Please wait"
+msgstr "در حال پاکسازی، لطفا منتظر بمانید"
+
+#: classes/class-dashboard.php:1975
+msgid "Yes please"
+msgstr "بله، لطفا"
+
+#: classes/class-dashboard.php:1982
+msgid "Demo \"DEMONAME\" uninstalled successfully."
+msgstr "دموی \"DEMONAME\" حذف شد."
+
+#: classes/class-dashboard.php:1983
+msgid "Reload page"
+msgstr "بارگذاری مجدد صفحه"
+
+#: classes/class-dashboard.php:2031
+msgid "Envato error: Your license code is invalid."
+msgstr "کد خرید شما معتبر نیست."
+
+#: classes/class-dashboard.php:2046
+msgid "Envato API error:"
+msgstr "خطای API:"
+
+#: classes/class-dashboard.php:2056
+msgid "Envato error: The purchase code does not exist."
+msgstr "کد خرید شما موجود نیست."
+
+#: classes/class-dashboard.php:2063
+msgid "Envato error: Failed to validate code due to an HTTP error"
+msgstr "خطا در تایید کد بوسیله HTTP"
+
+#: classes/class-dashboard.php:2072
+msgid "Envato error: Please try again in 10 seconds."
+msgstr "خطا: لطفا 10 ثانیه بعد مجددا سعی کنید."
+
+#: classes/class-dashboard.php:2077
+msgid "Envato error: Parsing response."
+msgstr "خطا: Parsing response."
+
+#: classes/class-dashboard.php:2082
+msgid ""
+"Envato error: Your purchase code is valid but it seems its for another item, "
+"Please add correct purchase code."
+msgstr "خطا: کد خرید شما برای محصول دیگری هست."
+
+#: classes/class-dashboard.php:2111
+msgid "Something went wrong, Please try again in 10 seconds."
+msgstr "مشکلی رخ داده است، لطفا چند ثانیه بعد دوباره سعی کنید."
+
+#: classes/class-dashboard.php:2123
+msgid ""
+"Your license not found in our database, Please check your license and try "
+"again ..."
+msgstr "کد خرید شما اشتباه می باشد."
+
+#: classes/class-dashboard.php:2182
+msgid "AJAX requested name is empty, Please try again."
+msgstr "خطای آژاکس."
+
+#: classes/class-dashboard.php:2194
+msgid "Redirected successfully."
+msgstr "Redirected successfully."
+
+#: classes/class-dashboard.php:2216
+#, php-format
+msgid "Could not find plugin \"%s\" API, Please refresh page and try again."
+msgstr "افزونه \"%s\" یافت نشد، لطفا صفحه را دوباره بارگذاری و مجددا سعی کنید."
+
+#: classes/class-dashboard.php:2231
+msgid "Codevz plus plugin is not installed or activated."
+msgstr "افزونه مکمل اکسترا نصب نشده است."
+
+#: classes/class-dashboard.php:2284
+#, php-format
+msgid "Plugin \"%s\" is no listed as a valid plugin."
+msgstr "افزونه \"%s\" معتبر نمی باشد."
+
+#: classes/class-dashboard.php:2307
+msgid "WP_Filesystem required FTP login details"
+msgstr "اطلاعات FTP مورد نیاز هست"
+
+#: classes/class-dashboard.php:2321
+msgid "Could not connect to server FTP with WP_Filesystem function."
+msgstr "خطا در اتصال به FTP."
+
+#: classes/class-dashboard.php:2337
+msgid "WordPress API Error:"
+msgstr "خطای API وردپرس:"
+
+#: classes/class-dashboard.php:2350
+#, php-format
+msgid ""
+"Could not download \"%s\" plugin ZIP file, Please go to Appearance > Install "
+"Plugins and install it manually, and try again demo importer."
+msgstr ""
+"خطا در دریافت فایل افزونه، لطفا افزونه  %s را بصورت دستی از Appearance > "
+"Install Plugins نصب نمایید و دوباره درون ریزی را انجام دهید."
+
+#: classes/class-dashboard.php:2403
+#, php-format
+msgid ""
+"Error, Through FTP delete plugins > \"%s\" folder & increase PHP "
+"max_execution_time to 300 then try again."
+msgstr ""
+"خطا رخ داده است، از طریق اف تی پی پلاگین \"%s\" را پاک کنید و PHP "
+"max_execution_time را روی 300 تنظیم کنید و دوباره سعی کنید."
+
+#: classes/class-dashboard.php:2422
+msgid "Plugin activation error, "
+msgstr "فعالسازی افزونه با خطا مواجه شد."
+
+#: classes/class-dashboard.php:2433
+#, php-format
+msgid "Plugin \"%s\" installed and activated successfully."
+msgstr "افزونه \"%s\" با موفقیت نصب و فعال شد."
+
+#: classes/class-dashboard.php:2460
+msgid "Plugin API error:"
+msgstr "خطای API افزونه:"
+
+#: classes/class-dashboard.php:2622
+#, php-format
+msgid "Demo \"%s\" uninstalled successfully."
+msgstr "دموی \"%s\" با موفقیت حذف شد."
+
+#: classes/class-dashboard.php:2631
+#, php-format
+msgid "Could not uninstall \"%s\" demo."
+msgstr "عدم موفقیت در پاکسازی دمو \"%s\"."
+
+#: classes/class-settings.php:366
+msgid "Copyright © All Rights Reserved."
+msgstr "تمامی حقوق مادی و معنوی محفوظ است."
+
+#: functions.php:36
+msgid "Your theme is not activated."
+msgstr "لایسنس قالب اکسترا فعال نشده است."
+
+#: functions.php:38
+msgid "For access to all theme features, please activate your theme."
+msgstr "جهت دسترسی به کلیه امکانات قالب لطفا اقدام به فعالسازی لایسنس نمایید."
+
+#: functions.php:39
+msgid "Buy Xtra Theme"
+msgstr "خرید لایسنس قالب اکسترا"
+
+#: functions.php:40
+msgid "Activation Help"
+msgstr "راهنمای فعالسازی"
+
+#: functions.php:62
+msgid ""
+"By checking this field, wizard will import English version of current demo "
+"that you have selected."
+msgstr ""
+"با انتخاب این گزینه شما میتوانید نسخه انگلیسی این دمو را درون ریزی کنید."
+
+#: functions.php:62
+msgid "English version?"
+msgstr "نسخه انگلیسی؟"
+
+#: functions.php:90
+msgid "Parsi Date"
+msgstr "وردپرس پارسی"
+
+#: functions.php:96
+msgid "Persian Woocommerce"
+msgstr "ووکامرس فارسی"
+
+#: functions.php:102
+msgid "RTL Theme Updater"
+msgstr "بروزرسان راستچین"
+
+#: functions.php:216
+msgid "factory-2"
+msgstr "کارخانه 2"
+
+#: functions.php:221
+msgid "perfume-shop"
+msgstr "فروشگاه عطر و ادکلن"
+
+#: functions.php:226
+msgid "watch-shop"
+msgstr "فروشگاه ساعت هوشمند"
+
+#: functions.php:231
+msgid "book-shop"
+msgstr "فروشگاه کتاب"
+
+#: functions.php:236
+msgid "flower-shop"
+msgstr "فروشگاه گل و گیاه"
+
+#: functions.php:241
+msgid "beauty-salon-2"
+msgstr "سالن زیبایی ۲"
+
+#: functions.php:246
+msgid "music-and-band"
+msgstr "موزیک ۲"
+
+#: functions.php:251
+msgid "nail-salon"
+msgstr "سالن ناخن کار"
+
+#: functions.php:256
+msgid "architect-2"
+msgstr "معمار ۲"
+
+#: functions.php:261
+msgid "agency-2"
+msgstr "آژانس خلاقانه ۲"
+
+#: functions.php:266
+msgid "photographer"
+msgstr "عکاس"
+
+#: functions.php:271
+msgid "elderly-care"
+msgstr "مراقبت از سالمندان"
+
+#: functions.php:276
+msgid "investment"
+msgstr "سرمایه گذاری"
+
+#: functions.php:281
+msgid "dance"
+msgstr "رقص"
+
+#: functions.php:286
+msgid "cryptocurrency-2"
+msgstr "ارز دیجیتال ۲"
+
+#: functions.php:291
+msgid "business-5"
+msgstr "کسب و کار ۵"
+
+#: functions.php:296
+msgid "construction-2"
+msgstr "ساخت و ساز ۲"
+
+#: functions.php:301
+msgid "advisor"
+msgstr "مشاوره"
+
+#: functions.php:306
+msgid "seo-2"
+msgstr "سئو ۲"
+
+#: functions.php:311
+msgid "portfolio"
+msgstr "نمونه کار"
+
+#: functions.php:316
+msgid "personal-blog-2"
+msgstr "وبلاگ شخصی ۲"
+
+#: functions.php:321
+msgid "insurance"
+msgstr "بیمه"
+
+#: functions.php:326
+msgid "corporate-2"
+msgstr "هولدینگ ۲"
+
+#: functions.php:331
+msgid "business-4"
+msgstr "کسب و کار ۴"
+
+#: functions.php:336
+msgid "startup"
+msgstr "استارتاپ"
+
+#: functions.php:341
+msgid "medical"
+msgstr "پزشکی و کلینیک"
+
+#: functions.php:346
+msgid "factory"
+msgstr "کارخانه"
+
+#: functions.php:351
+msgid "furniture"
+msgstr "دکور و مبلمان منزل"
+
+#: functions.php:356
+msgid "carwash"
+msgstr "کارواش"
+
+#: functions.php:361
+msgid "rims"
+msgstr "رینگ اسپورت"
+
+#: functions.php:366
+msgid "jewelry"
+msgstr "جواهرات فروشی"
+
+#: functions.php:371
+msgid "church"
+msgstr "کلیسا"
+
+#: functions.php:376
+msgid "yoga"
+msgstr "یوگا"
+
+#: functions.php:381
+msgid "moving"
+msgstr "اثاث کشی"
+
+#: functions.php:386
+msgid "plumbing"
+msgstr "لوله کشی"
+
+#: functions.php:391
+msgid "travel"
+msgstr "مسافرت"
+
+#: functions.php:396
+msgid "beauty-salon"
+msgstr "سالن زیبایی"
+
+#: functions.php:401
+msgid "home-renovation"
+msgstr "نوسازی خانه"
+
+#: functions.php:406
+msgid "creative-business"
+msgstr "تجارت خلاقانه"
+
+#: functions.php:411
+msgid "mechanic"
+msgstr "مکانیک"
+
+#: functions.php:416
+msgid "lawyer"
+msgstr "وکیل"
+
+#: functions.php:421
+msgid "web-agency"
+msgstr "طراحی سایت"
+
+#: functions.php:426
+msgid "gardening"
+msgstr "باغبانی"
+
+#: functions.php:431
+msgid "corporate"
+msgstr "هولدینگ"
+
+#: functions.php:436
+msgid "business-3"
+msgstr "کسب و کار ۳"
+
+#: functions.php:441
+msgid "digital-marketing"
+msgstr "بازاریابی دیجیتال"
+
+#: functions.php:446
+msgid "business-classic"
+msgstr "کسب و کار کلاسیک"
+
+#: functions.php:451
+msgid "charity"
+msgstr "خیریه"
+
+#: functions.php:456
+msgid "creative-studio"
+msgstr "استدیوی خلاق"
+
+#: functions.php:461
+msgid "kids"
+msgstr "مهدکودک"
+
+#: functions.php:466
+msgid "smart-home"
+msgstr "خانه هوشمند"
+
+#: functions.php:471
+msgid "logistic"
+msgstr "لجستیک"
+
+#: functions.php:476
+msgid "industrial"
+msgstr "صنعت"
+
+#: functions.php:481
+msgid "tattoo"
+msgstr "تتو"
+
+#: functions.php:486
+msgid "personal-blog"
+msgstr "وبلاگ شخصی"
+
+#: functions.php:491
+msgid "cleaning"
+msgstr "خدمات نظافت"
+
+#: functions.php:496
+msgid "metro-blog"
+msgstr "وبلاگ مترو"
+
+#: functions.php:501
+msgid "parallax"
+msgstr "پارالاکس"
+
+#: functions.php:506
+msgid "3d-portfolio"
+msgstr "طراحی ۳بعدی"
+
+#: functions.php:511
+msgid "agency"
+msgstr "آژانس خلاقانه"
+
+#: functions.php:516
+msgid "photography3"
+msgstr "عکاسی ۳"
+
+#: functions.php:521
+msgid "spa"
+msgstr "اسپا و ماساژ"
+
+#: functions.php:526
+msgid "app"
+msgstr "اپلیکیشن"
+
+#: functions.php:531
+msgid "architect"
+msgstr "معمار"
+
+#: functions.php:536
+msgid "barber"
+msgstr "آرایشگاه"
+
+#: functions.php:541
+msgid "building"
+msgstr "ساختمان"
+
+#: functions.php:546
+msgid "business"
+msgstr "کسب و کار"
+
+#: functions.php:551
+msgid "camping-adventures"
+msgstr "وبلاگ شخصی"
+
+#: functions.php:556
+msgid "coffee"
+msgstr "کافی شاپ و قهوه"
+
+#: functions.php:561
+msgid "conference"
+msgstr "کنفرانس و رویداد"
+
+#: functions.php:566
+msgid "business-2"
+msgstr "کسب و کار ۲"
+
+#: functions.php:571
+msgid "construction"
+msgstr "ساخت و ساز"
+
+#: functions.php:576
+msgid "cryptocurrency"
+msgstr "ارز مجازی"
+
+#: functions.php:581
+msgid "cv-resume"
+msgstr "رزومه شخصی"
+
+#: functions.php:586
+msgid "dentist"
+msgstr "دندانپزشکی"
+
+#: functions.php:591
+msgid "fashion-shop"
+msgstr "فروشگاه فشن"
+
+#: functions.php:596
+msgid "fast-food"
+msgstr "فست فود"
+
+#: functions.php:601
+msgid "finance"
+msgstr "مشاوره مالی"
+
+#: functions.php:606
+msgid "game"
+msgstr "ویدئو گیم و سرگرمی"
+
+#: functions.php:611
+msgid "gym"
+msgstr "باشگاه بدنسازی"
+
+#: functions.php:616
+msgid "hosting"
+msgstr "هاستینگ"
+
+#: functions.php:621
+msgid "hotel"
+msgstr "هتل"
+
+#: functions.php:626
+msgid "interior"
+msgstr "طراحی داخلی"
+
+#: functions.php:631
+msgid "lawyers"
+msgstr "وکلا"
+
+#: functions.php:636
+msgid "logo-portfolio"
+msgstr "طراح لوگو"
+
+#: functions.php:641
+msgid "music"
+msgstr "موزیک"
+
+#: functions.php:646
+msgid "photography"
+msgstr "عکاسی"
+
+#: functions.php:651
+msgid "photography2"
+msgstr "عکاسی ۲"
+
+#: functions.php:656
+msgid "plastic-surgery"
+msgstr "جراحی پلاستیک"
+
+#: functions.php:661
+msgid "restaurant"
+msgstr "رستوران"
+
+#: functions.php:666
+msgid "dubai-investment"
+msgstr "سرمایه گذاری در دبی"
+
+#: functions.php:671
+msgid "seo"
+msgstr "سئو"
+
+#: functions.php:676
+msgid "single-shop"
+msgstr "محصول تکی (فروشگاه)"
+
+#: functions.php:681
+msgid "wedding"
+msgstr "عروسی"
+
+#: functions.php:686
+msgid "Nooshidani"
+msgstr "نوشیدنی"
+
+#: theme-functions.php:149 theme-functions.php:460
+msgid "Primary"
+msgstr "سایدبار وبلاگ"
+
+#: theme-functions.php:461
+msgid "Secondary"
+msgstr "سایدبار نوشته"
+
+#: theme-functions.php:462
+msgid "Footer 1"
+msgstr "پاورقی 1"
+
+#: theme-functions.php:463
+msgid "Footer 2"
+msgstr "پاورقی 2"
+
+#: theme-functions.php:464
+msgid "Footer 3"
+msgstr "پاورقی 3"
+
+#: theme-functions.php:465
+msgid "Footer 4"
+msgstr "پاورقی 4"
+
+#: theme-functions.php:466
+msgid "Footer 5"
+msgstr "پاورقی 5"
+
+#: theme-functions.php:467
+msgid "Footer 6"
+msgstr "پاورقی 6"
+
+#: theme-functions.php:468
+msgid "Offcanvas"
+msgstr "سایدبار محوشونده"
+
+#: theme-functions.php:469
+msgid "Shop primary"
+msgstr "سایدبار فروشگاه"
+
+#: theme-functions.php:470
+msgid "Shop secondary"
+msgstr "سایدبار محصول"
+
+#: theme-functions.php:471
+msgid "Portfolio primary"
+msgstr "سایدبار نمونه کارها"
+
+#: theme-functions.php:472
+msgid "Portfolio secondary"
+msgstr "سایدبار نمونه کار"
+
+#: theme-functions.php:541
+msgid "Add widgets here to appear in your"
+msgstr "افزودن ابزارک در این قسمت برای نمایش در"
+
+#: theme-functions.php:1405
+msgid "Remove"
+msgstr "حذف"
+
+#: theme-functions.php:2065
+msgid "Author posts"
+msgstr "مشاهده نوشته ها"
+
+#: theme-functions.php:2198
+msgid "View all posts"
+msgstr "نمایش همه نوشته ها"
+
+#: theme-functions.php:2423
+msgid "Nothing Found"
+msgstr "چیزی یافت نشد"
+
+#: theme-functions.php:2423
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"با عرض پوزش، هیچ مطلبی مطابق با کلمه جستجوی شما یافت نشد. لطفا با کلمه دیگری "
+"را امتحان کنید."
+
+#: theme-functions.php:2425
+msgid "Search"
+msgstr "جستجو"
+
+#: theme-functions.php:3109
+msgid "Multipurpose Theme"
+msgstr "قالب وردپرس چندمنظوره"
+
+#: theme-functions.php:3110
+msgid "XtraTheme"
+msgstr "قالب اکسترا"
+
+#, php-format
+#~ msgid ""
+#~ "Install failed for \"%s\" plugin, Please increase your server PHP "
+#~ "max_execution_time e.g. 300"
+#~ msgstr ""
+#~ "خطا در نصب افزونه %s، لطفا مقدار PHP max_execution_time را افزایش دهید"
+
+#~ msgid ""
+#~ "An error has occured, please check your internet connection and try again."
+#~ msgstr ""
+#~ "مشکلی رخ داده است، لطفا اتصال به اینترنت را چک کرده و دوباره سعی کنید."
+
+#~ msgid "winery"
+#~ msgstr "نوشیدنی"
+
+#~ msgid "All"
+#~ msgstr "همه"
+
+#~ msgid "Click here"
+#~ msgstr "کلیک کنید"
+
+#~ msgid "Install plugins"
+#~ msgstr "نصب افزونه ها"
+
+#~ msgid "Theme options"
+#~ msgstr "تنظیمات قالب"
+
+#~ msgid "Documentation & support"
+#~ msgstr "مستندات و پشتیبانی"
+
+#~ msgid "Install Required Plugins"
+#~ msgstr "نصب افزونه های مورد نیاز"
+
+#, php-format
+#~ msgid "Installing Plugin: %s"
+#~ msgstr "در حال نصب افزونه: %s"
+
+#, php-format
+#~ msgid "Updating Plugin: %s"
+#~ msgstr "در حال بروزرسانی افزونه: %s"
+
+#, php-format
+#~ msgid "This theme requires the following plugin: %1$s."
+#~ msgid_plural "This theme requires the following plugins: %1$s."
+#~ msgstr[0] "این قالب به افزونه های زیر نیازمند است:%1$s."
+#~ msgstr[1] "این قالب به افزونه زیر نیازمند است:%1$s."
+
+#, php-format
+#~ msgid "This theme recommends the following plugin: %1$s."
+#~ msgid_plural "This theme recommends the following plugins: %1$s."
+#~ msgstr[0] "این قالب افزونه های زیر را پیشنهاد می کند: %1$s."
+#~ msgstr[1] "این قالب افزونه زیر را پیشنهاد می کند: %1$s."
+
+#, php-format
+#~ msgid ""
+#~ "The following plugin needs to be updated to its latest version to ensure "
+#~ "maximum compatibility with this theme: %1$s."
+#~ msgid_plural ""
+#~ "The following plugins need to be updated to their latest version to "
+#~ "ensure maximum compatibility with this theme: %1$s."
+#~ msgstr[0] "افزونه های زیر نیازمند بروزرسانی می باشد:  %1$s."
+#~ msgstr[1] "افزونه زیر نیازمند بروزرسانی می باشد:  %1$s."
+
+#, php-format
+#~ msgid "There is an update available for: %1$s."
+#~ msgid_plural "There are updates available for the following plugins: %1$s."
+#~ msgstr[0] "برای این افزونه ها بروز رسانی موجود است: %1$s."
+#~ msgstr[1] "برای این افزونه بروز رسانی موجود است: %1$s."
+
+#, php-format
+#~ msgid "The following required plugin is currently inactive: %1$s."
+#~ msgid_plural "The following required plugins are currently inactive: %1$s."
+#~ msgstr[0] "افزونه های مورد نیاز زیر غیرفعال است: %1$s."
+#~ msgstr[1] "افزونه مورد نیاز زیر غیرفعال است: %1$s."
+
+#, php-format
+#~ msgid "The following recommended plugin is currently inactive: %1$s."
+#~ msgid_plural ""
+#~ "The following recommended plugins are currently inactive: %1$s."
+#~ msgstr[0] "افزونه های پیشنهاد شده مورد نظر غیرفعال است: %1$s."
+#~ msgstr[1] "افزونه پیشنهاد شده مورد نظر غیرفعال است: %1$s."
+
+#~ msgid "Begin installing plugin"
+#~ msgid_plural "Begin installing plugins"
+#~ msgstr[0] "شروع به نصب افزونه ها"
+#~ msgstr[1] "شروع به نصب افزونه"
+
+#~ msgid "Begin updating plugin"
+#~ msgid_plural "Begin updating plugins"
+#~ msgstr[0] "شروع به بروزرسانی افزونه ها"
+#~ msgstr[1] "شروع به بروزرسانی افزونه"
+
+#~ msgid "Begin activating plugin"
+#~ msgid_plural "Begin activating plugins"
+#~ msgstr[0] "شروع به فعال کردن افزونه ها"
+#~ msgstr[1] "شروع به فعال کردن افزونه"
+
+#~ msgid "Return to Required Plugins Installer"
+#~ msgstr "بازگشت به نصب کننده افزونه های مورد نیاز"
+
+#~ msgid "Return to the Dashboard"
+#~ msgstr "برگشت به پیشخوان"
+
+#~ msgid "The following plugin was activated successfully:"
+#~ msgid_plural "The following plugins were activated successfully:"
+#~ msgstr[0] "افزونه های زیر با موفقیت فعال شد:"
+#~ msgstr[1] "افزونه زیر با موفقیت فعال شد:"
+
+#, php-format
+#~ msgid "No action taken. Plugin %1$s was already active."
+#~ msgstr "هیچ اقدامی صورت نگرفت. افزونه %1$s از قبل فعال بوده است."
+
+#, php-format
+#~ msgid ""
+#~ "Plugin not activated. A higher version of %s is needed for this theme. "
+#~ "Please update the plugin."
+#~ msgstr ""
+#~ "افزونه فعال نشد. یک نسخه بالاتر از %s برای این قالب مورد نیاز است. لطفا "
+#~ "افزونه را بروزرسانی کنید."
+
+#, php-format
+#~ msgid "All plugins installed and activated successfully. %1$s"
+#~ msgstr "همه افزونه ها نصب شده و با موفقیت فعال شدند. %1$s"
+
+#~ msgid "Dismiss this notice"
+#~ msgstr "پنهان کردن این پیغام"
+
+#~ msgid ""
+#~ "There are one or more required or recommended plugins to install, update "
+#~ "or activate."
+#~ msgstr "افزونه ای برای نصب یا بروزرسانی موجود نیست."
+
+#~ msgid "Please contact the administrator of this site for help."
+#~ msgstr "لطفا برای راهنمایی با مدیر سایت یا پشتیبانی تماس بگیرید."
+
+#~ msgid "This plugin needs to be updated to be compatible with your theme."
+#~ msgstr "این افزونه برای سازگاری با قالب شما نیازمند بروزرسانی می باشد."
+
+#~ msgid "Update Required"
+#~ msgstr "بروزرسانی الزامی"
+
+#~ msgid ""
+#~ "The remote plugin package does not contain a folder with the desired slug "
+#~ "and renaming did not work."
+#~ msgstr ""
+#~ "بسته پلاگین از راه دور حاوی پوشه ای با لوج دلخواه نیست و تغییر نام کار "
+#~ "نمی کند."
+
+#~ msgid ""
+#~ "Please contact the plugin provider and ask them to package their plugin "
+#~ "according to the WordPress guidelines."
+#~ msgstr ""
+#~ "لطفا با ارائه دهنده پلاگین تماس بگیرید و از آنها بخواهید پلاگین خود را با "
+#~ "توجه به دستورالعمل وردپرس بسته بندی کنند."
+
+#~ msgid ""
+#~ "The remote plugin package consists of more than one file, but the files "
+#~ "are not packaged in a folder."
+#~ msgstr ""
+#~ "بسته پلاگین از راه دور شامل بیش از یک فایل است، اما فایل ها در یک پوشه "
+#~ "بسته بندی نمی شوند."
+
+#, php-format
+#~ msgid "TGMPA v%s"
+#~ msgstr "نصب کننده افزونه ها نسخه %s"
+
+#~ msgid "External Source"
+#~ msgstr "منبع خارجی"
+
+#~ msgid "Pre-Packaged"
+#~ msgstr "داخل پکیج"
+
+#~ msgid "Not Installed"
+#~ msgstr "نصب نشده"
+
+#~ msgid "Required Update not Available"
+#~ msgstr "بروزرسانی مورد نظر در دسترس نیست"
+
+#~ msgid "Update recommended"
+#~ msgstr "پیشنهاد بروزرسانی"
+
+#, php-format
+#~ msgid "All <span class=\"count\">(%s)</span>"
+#~ msgstr "همه <span class=\"count\">(%s)</span>"
+
+#, php-format
+#~ msgid "To Install <span class=\"count\">(%s)</span>"
+#~ msgid_plural "To Install <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "برای نصب <span class=\"count\">(%s)</span>"
+#~ msgstr[1] "برای نصب <span class=\"count\">(%s)</span>"
+
+#, php-format
+#~ msgid "Update Available <span class=\"count\">(%s)</span>"
+#~ msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "بروزرسانی های در دسترس <span class=\"count\">(%s)</span>"
+#~ msgstr[1] "بروزرسانی در دسترس <span class=\"count\">(%s)</span>"
+
+#, php-format
+#~ msgid "To Activate <span class=\"count\">(%s)</span>"
+#~ msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "برای فعالسازی <span class=\"count\">(%s)</span>"
+#~ msgstr[1] "برای فعالسازی <span class=\"count\">(%s)</span>"
+
+#~ msgid "Installed version:"
+#~ msgstr "نسخه نصب شده:"
+
+#~ msgid "Minimum required version:"
+#~ msgstr "حداقل نسخه مورد نیاز:"
+
+#~ msgid "Available version:"
+#~ msgstr "نسخه در دسترس :"
+
+#~ msgid "Plugin"
+#~ msgstr "افزونه"
+
+#~ msgid "Source"
+#~ msgstr "منبع"
+
+#~ msgid "Type"
+#~ msgstr "نوع"
+
+#, php-format
+#~ msgid "Install %2$s"
+#~ msgstr "نصب %2$s"
+
+#, php-format
+#~ msgid "Update %2$s"
+#~ msgstr "بروزرسانی %2$s"
+
+#, php-format
+#~ msgid "Activate %2$s"
+#~ msgstr "فعالسازی %2$s"
+
+#~ msgid "Upgrade message from the plugin author:"
+#~ msgstr "پیغام بروز رسانی از نویسنده افزونه:"
+
+#~ msgid "Update"
+#~ msgstr "بروزرسانی"
+
+#~ msgid "No plugins were selected to be installed. No action taken."
+#~ msgstr "هیچ اتفاقی نیفتاد. هیچ افزونه ای برای نصب انتخاب نشده بود."
+
+#~ msgid "No plugins were selected to be updated. No action taken."
+#~ msgstr "هیچ اتفاقی نیفتاد. هیچ افزونه ای برای فعالسازی انتخاب نشده بود."
+
+#~ msgid "No plugins are available to be installed at this time."
+#~ msgstr "در این زمان هیچ افزونه ای برای نصب در دسترس نیست."
+
+#~ msgid "No plugins are available to be updated at this time."
+#~ msgstr "در این زمان هیچ افزونه ای برای بروزرسانی در دسترس نیست."
+
+#~ msgid "No plugins were selected to be activated. No action taken."
+#~ msgstr "هیچ اتفاقی نیفتاد. هیچ افزونه ای برای فعالسازی انتخاب نشده بود."
+
+#~ msgid "No plugins are available to be activated at this time."
+#~ msgstr "در این زمان هیچ افزونه ای برای فعالسازی در دسترس نیست."
+
+#, php-format
+#~ msgid "Updating Plugin %1$s (%2$d/%3$d)"
+#~ msgstr "در حال بروزرسانی افزونه %1$s (%2$d/%3$d)"
+
+#, php-format
+#~ msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+#~ msgstr "هنگام نصب خطایی رخ داد %1$s:<strong>%2$s</strong>."
+
+#, php-format
+#~ msgid "The installation of %1$s failed."
+#~ msgstr "نصب %1$s با شکست مواجه شد."
+
+#~ msgid ""
+#~ "The installation and activation process is starting. This process may "
+#~ "take a while on some hosts, so please be patient."
+#~ msgstr ""
+#~ "روند نصب و فعال سازی شروع شده است. این فرآیند ممکن است در برخی از هاست ها "
+#~ "طول بکشد، بنابراین لطفا صبور باشید. اگر از قدرت هاست خود مطمئن نیستید، "
+#~ "پیشنهاد می شود افزونه ها را تک تک نصب و فعال کنید."
+
+#~ msgid "Show Details"
+#~ msgstr "مشاهده جزئیات"
+
+#~ msgid "Hide Details"
+#~ msgstr "پنهان کردن جزئیات"
+
+#~ msgid "All installations and activations have been completed."
+#~ msgstr "تمام افزونه ها نصب و فعال شدند."
+
+#, php-format
+#~ msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+#~ msgstr "در حال نصب و فعال سازی افزونه %1$s (%2$d/%3$d)"
+
+#~ msgid ""
+#~ "The installation process is starting. This process may take a while on "
+#~ "some hosts, so please be patient."
+#~ msgstr ""
+#~ "روند نصب و فعال سازی شروع شده است. این فرآیند ممکن است در برخی از هاست ها "
+#~ "طول بکشد، بنابراین لطفا صبور باشید. اگر از قدرت هاست خود مطمئن نیستید، "
+#~ "پیشنهاد می شود افزونه ها را تک تک نصب و فعال کنید."
+
+#~ msgid "All installations have been completed."
+#~ msgstr "تمام افزونه نصب شد."
+
+#, php-format
+#~ msgid "Installing Plugin %1$s (%2$d/%3$d)"
+#~ msgstr "در حال نصب افزونه %1$s (%2$d/%3$d)"
+
+#, php-format
+#~ msgid "%1$s done."
+#~ msgstr "‫%1$s انجام شده."
+
+#~ msgid "RTL Xtra"
+#~ msgstr "افزودنی های فارسی قالب اکسترا"
+
+#~ msgid "[Theme activation is required]"
+#~ msgstr "[فعالسازی لایسنس نیاز است]"
+
+#~ msgid "1.0"
+#~ msgstr "1.0"
+
+#~ msgid "Contact Form by WPForms"
+#~ msgstr "فرم تماس WP Forms"

@@ -1,0 +1,83 @@
+.cz_history_1 {
+	position: relative;
+	margin: 0;
+	padding: 0 0 0 40px
+}
+.cz_has_year {margin-left: 82px}
+.cz_history_1 > span:first-child {
+	position: absolute;
+	top: -4px;
+	left: -82px;
+	padding: 2px 12px;
+	border: 1px solid;
+	border-radius: 4px;
+	transition: all .2s ease-in-out
+}
+.cz_history_1:before {
+	content: '';
+	width: 8px;
+	height: 8px;
+	background: #ffffff;
+	border-radius: 100%;
+	border-width: 1px;
+	border-color: #111;
+	border-style: solid;
+	display: block;
+	z-index: 1;
+	position: absolute;
+	left: 1px;
+	top: 8px
+}
+.cz_history_1:after {
+	content: '';
+	width: 2px;
+	height: calc(100% - -35px);
+	top: 14px;
+	border: 0;
+	border-left: 1px solid;
+	display: block;
+	position: absolute;
+	left: 5px;
+	top: 12px;
+	z-index: 0
+}
+.slick .cz_history_slide_year, 
+.slick_sync .cz_history_slide_content {
+	display: none
+}
+.cz_history_slide_year {
+	display: inline-block;
+	float: right;
+	padding: 4px 12px;
+	background: #fff;
+	border: 1px solid;
+	cursor: pointer;
+	border-radius: 2px
+}
+.slick_sync .cz_history_slide:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	border-bottom: 1px solid;
+	width: 100%;
+	height: 1px;
+	top: calc(50% - 1px);
+	z-index: -1
+}
+.cz_history_1 .wpb_content_element {
+	margin-bottom: 0 !important
+}
+
+@media screen and (max-width:480px) {
+
+	.cz_history_1 > span:first-child {
+		position: static !important;
+		margin-bottom: 10px !important;
+		display: inline-block
+	}
+	.cz_has_year {
+		margin-left: 0 !important;
+		margin-right: 0 !important
+	}
+
+}

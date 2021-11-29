@@ -1,0 +1,21 @@
+.hide_on_mobile,
+.show_on_tablet.show_only_tablet {
+	display: none !important
+}
+.show_on_tablet:not(.hide_on_mobile,.show_only_tablet),
+.show_on_mobile,
+.show_only_mobile {
+	display: block !important
+}
+
+.wpb_animate_when_almost_visible {
+	animation-delay: 0ms !important
+}
+.cz_reverse_row_mobile {
+	flex-direction: column-reverse;
+	display: flex
+}
+
+.xtra-image-full-width-mobile img {
+	width: 100%
+}

@@ -1,0 +1,90 @@
+.cz_quote blockquote {
+	padding: 30px
+}
+.cz_quote .cz_quote_info {
+	margin: 40px 0 0;
+	display: table
+}
+.cz_quote .cz_quote_info img {
+	border-radius: 100%;
+	display: inline-block;
+	margin-right: 20px;
+	width: 80px;
+	height: 80px;
+	vertical-align: middle
+}
+.cz_quote_center .cz_quote_info img {
+	margin: 0 auto
+}
+.cz_quote h4 {
+	display: inline-block;
+	font-weight: normal;
+	vertical-align: middle;
+	margin: 0
+}
+.cz_quote blockquote:before {
+	display: none
+}
+.cz_quote_arrow blockquote {
+	background: #fff
+}
+.cz_quote_arrow blockquote:after {
+	content: "\00a0";
+	display: block;
+	position: absolute;
+	bottom: -10px;
+	left: 62px;
+	width: 20px;
+	height: 20px;
+	background: inherit;
+	z-index: 0;
+	border-width: 0 1px 1px 0;
+	border-style: inherit;
+	border-color: inherit;
+	transform: rotate(45deg)
+}
+
+.cz_quote_arrow .cz_quote_info {
+	margin: 20px 30px
+}
+.cz_quote_center {
+	text-align: center
+}
+.cz_quote_center blockquote:after {
+	left: calc(51% - 20px)
+}
+.cz_quote_center .cz_quote_info {
+	margin: 20px auto 0
+}
+.cz_quote_center blockquote:after {
+	z-index: -1
+}
+.cz_quote.cz_quote_center .cz_quote_info img {
+	display: table;
+	margin: 0 auto
+}
+.cz_quote_center h4 {
+	display: block;
+	padding: 10px 0
+}
+.cz_quote_top blockquote:after {
+	border-width: 1px 0 0 1px;
+	bottom: auto;
+	top: -10px
+}
+.cz_quote_center.cz_quote_top .cz_quote_info {
+	margin: 0 auto 20px
+}
+i.cz_quote_shape {
+	display: block;
+	opacity: .1;
+	font-size: 100px
+}
+.cz_quote_both_second {
+	position: absolute;
+	bottom: 10%;
+	right: 10%
+}
+.cz_quote_rating i {
+	margin-right: 1px
+}

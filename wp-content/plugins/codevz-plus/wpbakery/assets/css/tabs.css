@@ -1,0 +1,240 @@
+.cz_tabs {
+	position: relative
+}
+.cz_tab {
+	display: none;
+	margin: 30px 0 0
+}
+.cz_tabs_content .cz_tab:last-child {
+	display: block
+}
+.cz_tabs_blur .cz_tab > div {
+	animation: xtraTabBlur .8s forwards
+}
+.cz_tabs_flash .cz_tab > div {
+	animation: xtraTabFlash .8s forwards
+}
+.cz_tabs_bounce .cz_tab > div {
+	animation: xtraTabAbsorber .8s forwards
+}
+.cz_tabs_wobble_skew .cz_tab > div {
+	animation: xtraTabWobbleSkew .8s forwards
+}
+.cz_tabs_zoom_out .cz_tab > div {
+	animation: xtraTabZoomOut .8s forwards
+}
+.cz_tabs_zoom_in .cz_tab > div {
+	animation: xtraTabZoomIn .8s forwards
+}
+.cz_tabs_fade_in_up .cz_tab > div {
+	animation: xtraTabFadeInUp .8s forwards
+}
+.cz_tabs_fade_in_down .cz_tab > div {
+	animation: xtraTabFadeInBottom .8s forwards
+}
+.cz_tabs_fade_in_right .cz_tab > div {
+	animation: xtraTabFadeInRight .8s forwards
+}
+.cz_tabs_fade_in_left .cz_tab > div {
+	animation: xtraTabFadeInLeft .8s forwards
+}
+.cz_tabs_rotate .cz_tab > div {
+	animation: xtraTabRotate .8s forwards
+}
+.cz_tabs_right_left .cz_tab > div {
+	animation: xtraTabRightLeft .8s forwards
+}
+.cz_tabs_swing .cz_tab > div {
+	animation: xtraTabSwing .8s forwards
+}
+.cz_tabs_push_in .cz_tab > div {
+	animation: xtraTabPushIn .8s forwards
+}
+
+.compose-mode .cz_tabs_content .vc_cz_tab {
+	display: none
+}
+.compose-mode .cz_tabs_content .vc_cz_tab:first-child {
+	display: block
+}
+.compose-mode .vc_cz_tabs .cz_tab {
+	display: block;
+	min-height: 100px
+}
+.cz_tab.active, 
+.cz_tab.cz_active {
+	display: block
+}
+.cz_tab_a {
+	position: relative;
+	cursor: pointer;
+	display: inline-block;
+	padding: 0 0 12px;
+	margin: 0 20px -4px 0;
+	font-size: 16px;
+	font-weight: bold;
+	border-bottom: 4px solid transparent
+}
+.cz_tab_a > span {
+	display: inline-block;
+	vertical-align: middle
+}
+.cz_tab_a i {
+	width: 1em;
+	height: 1em;
+	line-height: 1em
+}
+.cz_tab_a .cz_tab_image {
+	width: auto;
+	height: auto
+}
+.cz_tab_a.active, 
+.cz_tab_a.cz_active {
+	border-bottom-color: inherit
+}
+.cz_tabs_htl .cz_tab_a, 
+.cz_tabs_hbl .cz_tab_a {
+	float: left
+}
+.cz_tabs_htc .cz_tabs_nav, 
+.cz_tabs_hbc .cz_tabs_nav {
+	text-align: center
+}
+.cz_tabs_htc .cz_tab_a, 
+.cz_tabs_hbc .cz_tab_a {
+	float: none
+}
+.cz_tabs_htr .cz_tab_a, 
+.cz_tabs_hbr .cz_tab_a {
+	float: right
+}
+.cz_tabs_is_v .cz_tabs_nav {
+	width: 30%;
+	float: left
+}
+.cz_tabs_is_v .cz_tabs_content {
+	width: 70%;
+	float: left
+}
+.cz_tabs_is_v .cz_tab {
+	padding: 0 30px
+}
+.cz_tabs_is_v .cz_tab_a {
+	margin: 0 0 10px;
+	display: block
+}
+.cz_tabs_vr .cz_tabs_nav, 
+.cz_tabs_vr .cz_tabs_content {
+	float: right
+}
+.cz_tabs_vl .cz_tab, 
+.cz_tabs_vr .cz_tab {
+	margin: 0
+}
+.cz_tabs > select {
+	display: none;
+	margin: 40px 0 10px
+}
+
+@keyframes xtraTabBlur {
+	0% {filter: blur(5px)}
+	100% {filter: blur(0)}
+}
+@keyframes xtraTabFlash {
+	0% {opacity: .1}
+	100% {opacity: 1}
+}
+@keyframes xtraTabAbsorber {
+	0%, 10%, 20%, 50%, 80% {transform: translateY(0)}
+	40% {transform: translateY(-8px)}
+	60% {transform: translateY(-8px)}
+}
+@keyframes xtraTabWobbleSkew {
+	16.65% {transform: skew(-12deg)}
+	33.3% {transform: skew(10deg)}
+	49.95% {transform: skew(-6deg)}
+	66.6% {transform: skew(4deg)}
+	83.25% {transform: skew(-2deg)}
+	100% {transform: skew(0)}
+}
+@keyframes xtraTabRotate {
+	from {transform: rotate(0deg)}
+	to {transform: rotate(360deg)}
+}
+@keyframes xtraTabRightLeft {
+	0% {transform: translate(0, 0)}
+	50% {transform: translate(30px, 0)}
+	100% {transform: translate(0, 0)}
+}
+@keyframes xtraTabSwing {
+	20% {transform: rotate3d(0,0,1,4deg)}
+	40% {transform: rotate3d(0,0,1,-4deg)}
+	60% {transform: rotate3d(0,0,1,2deg)}
+	80% {transform: rotate3d(0,0,1,-2deg)}
+	100% {transform: rotate3d(0,0,1,0deg)}
+}
+@keyframes xtraTabPushIn {
+	0% {opacity: 0;transform: translateX(-30%)}
+	60% {opacity: 1;transform: translateX(10%)}
+	100% {opacity: 1;transform: translateX(0)}
+}
+@keyframes xtraTabFadeInUp {
+	49% {transform: translateY(-50px)}
+	50% {opacity: 0;transform: translateY(50px)}
+	51% {opacity: 1}
+}
+@keyframes xtraTabFadeInBottom {
+	49% {transform: translateY(50px)}
+	50% {opacity: 0;transform: translateY(-50px)}
+	51% {opacity: 1}
+}
+@keyframes xtraTabFadeInRight {
+	49% {transform: translateX(50px)}
+	50% {opacity: 0;transform: translateX(-50px)}
+	51% {opacity: 1}
+}
+@keyframes xtraTabFadeInLeft {
+	49% {transform: translateX(-50px)}
+	50% {opacity: 0;transform: translateX(50px)}
+	51% {opacity: 1}
+}
+@keyframes xtraTabZoomOut {
+	0% {opacity: 0;transform: scale(1.1)}
+	50% {opacity: 1;transform: scale(1)}
+}
+@keyframes xtraTabZoomIn {
+	0% {opacity: 0;transform: scale(.9)}
+	50% {opacity: 1;transform: scale(1)}
+}
+
+@media screen and (max-width: 768px) {
+
+	.cz_tabs_is_v .cz_tabs_nav,
+	.cz_tabs_is_v .cz_tabs_content {
+		width: 100% !important;
+		margin-bottom: 20px
+	}
+
+}
+
+@media screen and (max-width:480px) {
+
+	.cz_tab_a,
+	.cz_tabs_content,
+	.cz_tabs_is_v .cz_tabs_nav {
+		box-sizing: border-box;
+		display: block;
+		width: 100% !important;
+		margin-bottom: 20px
+	}
+	.cz_tabs_nav,
+	.cz_tabs_is_v .cz_tabs_nav {
+		display: none
+	}
+	.cz_tabs > select,
+	.cz_btn.hide_on_desktop,
+	.cz_btn.hide_on_tablet {
+		display: block
+	}
+
+}

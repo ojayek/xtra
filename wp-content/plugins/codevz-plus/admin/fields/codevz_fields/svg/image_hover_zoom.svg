@@ -1,0 +1,48 @@
+<svg id="Image_hover_zoom" data-name="Image hover zoom" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-4, .cls-5 {
+        fill: #ffae00;
+      }
+
+      .cls-2, .cls-4 {
+        stroke: #2f2f36;
+      }
+
+      .cls-2 {
+        stroke-width: 1px;
+      }
+
+      .cls-3, .cls-6 {
+        fill: #2f2f36;
+      }
+
+      .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-4 {
+        stroke-width: 1.2px;
+      }
+
+      .cls-5 {
+        stroke: #282828;
+        stroke-width: 1.5px;
+      }
+
+      .cls-6 {
+        font-size: 8px;
+        opacity: 0.8;
+        font-family: "Times New Roman";
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+    </style>
+  </defs>
+  <rect id="BG_Shape" data-name="BG Shape" class="cls-1" width="32" height="32" rx="3" ry="3"/>
+  <rect id="Rounded_Rectangle_8_copy" data-name="Rounded Rectangle 8 copy" class="cls-2" x="6" y="6" width="20" height="20" rx="2" ry="2"/>
+  <path class="cls-3" d="M7,23.1A1.9,1.9,0,0,0,8.9,25H23.1A1.9,1.9,0,0,0,25,23.1V8.9A1.9,1.9,0,0,0,23.1,7H8.9A1.9,1.9,0,0,0,7,8.9V23.1Zm16.1,1H8.9a1,1,0,0,1-1-1V20.73l3.413-3.413,2.917,2.917a0.448,0.448,0,0,0,.636,0l5.267-5.267L24.1,18.931V23.1A1,1,0,0,1,23.1,24.1ZM8.9,7.9H23.1a1,1,0,0,1,1,1v8.757L20.45,14.01a0.448,0.448,0,0,0-.636,0l-5.267,5.267L11.631,16.36a0.449,0.449,0,0,0-.636,0L7.9,19.454V8.9A1,1,0,0,1,8.9,7.9Zm3.682,6.311a2.291,2.291,0,1,0-2.291-2.291A2.294,2.294,0,0,0,12.579,14.213Zm0-3.682a1.39,1.39,0,1,1-1.39,1.39A1.391,1.391,0,0,1,12.579,10.531Z"/>
+  <path id="Rounded_Rectangle_6" data-name="Rounded Rectangle 6" class="cls-4" d="M19.739,18.473l6.775,6.756a1.619,1.619,0,1,1-2.293,2.287L17.445,20.76A1.619,1.619,0,0,1,19.739,18.473Z"/>
+  <circle class="cls-5" cx="17.313" cy="18.313" r="4.75"/>
+  <text id="_" data-name="+" class="cls-6" x="14.833" y="22">+</text>
+</svg>

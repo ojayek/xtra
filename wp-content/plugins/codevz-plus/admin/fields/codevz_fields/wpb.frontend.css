@@ -1,0 +1,24 @@
+.vc_column_container {
+	min-height: 5px
+}
+.cz_post_content > .vc_empty-placeholder {
+	display: none
+}
+.vc_welcome-brand img {
+	margin: 0 auto
+}
+.compose-mode .vc_row:hover {
+	z-index: 9999999 !important
+}
+.vc_cz_button.cz_btn_inline {
+	display: inline-block !important
+}
+.compose-mode .page_content [id^=cz_]:hover {
+	outline:dashed 1px #f00
+}
+.compose-mode .page_content .cz_gap {
+	background: repeating-linear-gradient(-45deg, rgba(125,125,125,.2) 1px, rgba(255,255,255,0) 3px, rgba(255,255,255,0) 10px)
+}
+.rtl .vc_controls {
+	direction: ltr !important
+}

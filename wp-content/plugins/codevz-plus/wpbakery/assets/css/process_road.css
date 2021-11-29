@@ -1,0 +1,125 @@
+.cz_process_road {
+	position: relative;
+	height: 200px;
+	border-color: #111;
+	border-style: solid
+}
+.cz_process_road_a,.cz_process_road_b {
+	border: 0;
+	position: absolute;
+	right: -1px;
+	top: -1px;
+	width: 50%;
+	height: 50%;
+	border-bottom: 2px solid;
+	box-sizing: content-box !important;
+	border-style: inherit !important;
+	border-color: inherit !important
+}
+.cz_process_road_b {
+	border: 0;
+	border-left: 2px solid;
+	top: 50%;
+}
+.cz_road_0px .cz_process_road_a {border-bottom-width: 0}
+.cz_road_0px .cz_process_road_b {border-left-width:0}
+.cz_road_1px .cz_process_road_a {border-bottom-width: 1px}
+.cz_road_1px .cz_process_road_b {border-left-width: 1px}
+.cz_road_3px .cz_process_road_a {border-bottom-width: 3px}
+.cz_road_3px .cz_process_road_b {border-left-width: 3px}
+.cz_road_4px .cz_process_road_a {border-bottom-width: 4px}
+.cz_road_4px .cz_process_road_b {border-left-width: 4px}
+.cz_road_5px .cz_process_road_a {border-bottom-width: 5px}
+.cz_road_5px .cz_process_road_b {border-left-width: 5px}
+.cz_process_road i {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	box-sizing: content-box;
+	z-index: 2;
+	background: #111;
+	color: #fff;
+	width: 2em;
+	height: 2em;
+	line-height: 2em;
+	text-align: center;
+	border: 2px solid transparent;
+	font-style: normal;
+	font-size: 22px;
+	transition: all .2s ease-in-out
+}
+[class*='cz_road_icon_rhombus'] i {
+	transform: translate(-50%,-50%) rotate(45deg);
+}
+.cz_road_icon_rhombus_2 i {
+	border-radius: 10px
+}
+.cz_road_icon_rhombus_3 i {
+	transform: translate(-50%,-120%) rotate(45deg);
+	border-radius: 100% 100% 0 100%;
+}
+[class*='cz_road_icon_rhombus'] i:before,
+[class*='cz_road_icon_rhombus'] span,
+[class*='cz_road_icon_rhombus'] img {
+	display: block;
+	transform: rotate(-45deg)
+}
+.cz_process_road b {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%)
+}
+[class*='cz_road_icon_rhombus'] b {
+	transform: translate(-50%, -50%)
+}
+.cz_road_tb .cz_process_road_a {
+	border: 0;
+	border-left: 2px solid
+}
+.cz_road_lr .cz_process_road_b {
+	border: 0;
+	border-bottom: 2px solid;
+	top: -1px;
+	left: 0;
+	right: auto
+}
+.cz_road_1px.cz_road_lr .cz_process_road_b {border-bottom-width: 1px}
+.cz_road_3px.cz_road_lr .cz_process_road_b {border-bottom-width: 3px}
+.cz_road_4px.cz_road_lr .cz_process_road_b {border-bottom-width: 4px}
+.cz_road_5px.cz_road_lr .cz_process_road_b {border-bottom-width: 5px}
+.cz_road_lb .cz_process_road_a {
+	right: auto;
+	left: 0
+}
+.cz_road_tr .cz_process_road_b, 
+.cz_road_tl .cz_process_road_b {
+	top: 0
+}
+.cz_road_tl .cz_process_road_a {
+	right: auto;
+	left: 0
+}
+.cz_road_cr .cz_process_road_b,
+.cz_road_cl .cz_process_road_b,
+.cz_road_ct .cz_process_road_a,
+.cz_road_cb .cz_process_road_a {
+	display: none
+}
+.cz_road_vr .cz_process_road_b,.cz_road_vl .cz_process_road_b,.cz_road_crs .cz_process_road_b {
+	height: 100%;
+	top: 0
+}
+.cz_road_hu .cz_process_road_a,.cz_road_hd .cz_process_road_a,.cz_road_crs .cz_process_road_a {
+	width: 100%
+}
+
+@media screen and (max-width:768px) {
+
+	.cz_process_road_a,
+	.cz_process_road_b {
+		display: none !important
+	}
+	
+}

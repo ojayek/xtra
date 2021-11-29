@@ -1,0 +1,14 @@
+.gmap {
+	width: 100%;
+	height: 300px
+}
+.gmap img {
+	border-radius: 0
+}
+.gmap > div {
+	overflow: hidden
+}
+.gmap .infowindow {
+	padding: 10px;
+	color: #111
+}

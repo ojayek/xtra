@@ -1,0 +1,20 @@
+figure.effect-style1 img {
+	transform: translate3d(40px,0,0)
+}
+figure.effect-style1 figcaption {
+	text-align: right
+}
+figure.effect-style8 img {
+	transform: translate3d(50px, 0, 0)
+}
+figure.effect-style8 figcaption:before {
+	transform: translate3d(20px, 0, 0)
+}
+figure.effect-style8 figcaption {
+	text-align: right
+}
+figure.effect-style15 h4, 
+figure.effect-style15 p {
+	right: 0;
+	left: auto
+}

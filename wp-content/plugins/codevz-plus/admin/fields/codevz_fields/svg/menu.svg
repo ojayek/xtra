@@ -1,0 +1,27 @@
+<svg id="Menu" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #ffae00;
+      }
+
+      .cls-2 {
+        stroke: #282828;
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #2f2f36;
+      }
+    </style>
+  </defs>
+  <rect id="BG_Shape" data-name="BG Shape" class="cls-1" width="32" height="32" rx="3" ry="3"/>
+  <path id="Rounded_Rectangle_5" data-name="Rounded Rectangle 5" class="cls-2" d="M10.24,11.571H21.76a2.16,2.16,0,0,1,2.16,2.16v3.6a2.16,2.16,0,0,1-2.16,2.16H10.24a2.16,2.16,0,0,1-2.16-2.16v-3.6A2.16,2.16,0,0,1,10.24,11.571Z"/>
+  <path id="Rounded_Rectangle_5_copy" data-name="Rounded Rectangle 5 copy" class="cls-2" d="M29.24,11.571H40.76a2.16,2.16,0,0,1,2.16,2.16v3.6a2.16,2.16,0,0,1-2.16,2.16H29.24a2.16,2.16,0,0,1-2.16-2.16v-3.6A2.16,2.16,0,0,1,29.24,11.571Z"/>
+  <path id="Rounded_Rectangle_5_copy_2" data-name="Rounded Rectangle 5 copy 2" class="cls-2" d="M-8.76,11.571H2.76a2.16,2.16,0,0,1,2.16,2.16v3.6a2.16,2.16,0,0,1-2.16,2.16H-8.76a2.16,2.16,0,0,1-2.16-2.16v-3.6A2.16,2.16,0,0,1-8.76,11.571Z"/>
+  <path id="Shape_1_copy_8" data-name="Shape 1 copy 8" class="cls-3" d="M21.336,27.239c-0.013,0-1.862-4.676-1.862-4.676l3.453,0.314-7.052-8.34,0.012,0.03L15.9,25.459,18.335,23s1.709,4.713,1.721,4.727S21.335,27.252,21.336,27.239Z"/>
+</svg>

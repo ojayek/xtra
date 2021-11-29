@@ -1,0 +1,19 @@
+.cz_tab_a {
+	margin: 0 0 -4px 20px
+}
+.cz_tabs_htl .cz_tab_a, 
+.cz_tabs_hbl .cz_tab_a {
+	float: right
+}
+.cz_tabs_htr .cz_tab_a, 
+.cz_tabs_hbr .cz_tab_a {
+	float: left
+}
+.cz_tabs_is_v .cz_tabs_nav,
+.cz_tabs_is_v .cz_tabs_content {
+	float: right
+}
+.cz_tabs_vr .cz_tabs_nav, 
+.cz_tabs_vr .cz_tabs_content {
+	float: left
+}

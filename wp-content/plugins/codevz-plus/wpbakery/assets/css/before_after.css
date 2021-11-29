@@ -1,0 +1,95 @@
+.cz_image_comparison_slider {
+	overflow: hidden
+}
+.cz_image_container {
+	position: relative;
+	max-width: 100%;
+	margin: 0 auto;
+	border-radius: inherit
+}
+.cz_image_container img {
+	display: block;
+	width: 100%;
+	border-radius: inherit
+}
+.elementor .cz_image_container > img {
+	width: 100% !important
+}
+.cz_image_label {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	color: #fff;
+	padding: 6px 16px;
+	border-radius: 2px;
+	opacity: 0;
+	white-space: nowrap;
+	transform: translateY(20px);
+	transition: transform .3s .7s, opacity .3s .7s
+}
+.cz_image_label.is_hidden {
+	visibility: hidden
+}
+.is_visible .cz_image_label {
+	opacity: 1;
+	transform: translateY(0)
+}
+.cz_resize_img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	overflow: hidden;
+	transform: translateZ(0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	border-right: 1px solid rgba(255, 255, 255, .1)
+}
+.cz_resize_img img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: block;
+	height: 100%;
+	width: auto;
+	max-width: none
+}
+.elementor .cz_resize_img img {
+	height: 100% !important;
+	max-width: none !important
+}
+.cz_resize_img .cz_image_label {
+	right: auto;
+	left: 10px
+}
+.is_visible .cz_resize_img {
+	width: 50%
+}
+.cz_handle {
+	position: absolute;
+	height: 44px;
+	width: 44px;
+	left: 50%;
+	top: 50%;
+	border-radius: 50%;
+	background: #fff;
+	cursor: col-resize;
+	box-shadow: 0 0 0 6px rgba(0, 0, 0, .1), 0 0 10px rgba(0, 0, 0, .2), inset 0 1px 0 rgba(255, 255, 255, .2);
+	opacity: 0;
+	transform: translate3d(0, 0, 0) scale(0) translate(-50%, -50%)
+}
+.cz_handle:before {
+	font-family: "Font Awesome 5 Free";
+	content: "\f337";
+	font-weight: 900;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%)
+}
+.is_visible .cz_handle {
+	opacity: 1;
+	transform: translate3d(0, 0, 0) scale(1) translate(-50%, -50%);
+	transition: transform .3s .7s, opacity 0s .7s
+}

@@ -1,0 +1,20 @@
+.edd-cart .edd-remove-from-cart {
+	right: auto;
+	left: 20px
+}
+.widget .edd-cart .edd-remove-from-cart {
+	right: auto;
+	left: 0
+}
+.edd-cart-item-title {
+	padding: 0;
+	padding-left: 30px
+}
+.edd-cart .edd_total {
+	border: 0;
+	border-left: 1px solid rgba(167, 167, 167, 0.2);
+}
+#edd_checkout_cart td img {
+	margin: 0;
+	margin-left: 20px
+}

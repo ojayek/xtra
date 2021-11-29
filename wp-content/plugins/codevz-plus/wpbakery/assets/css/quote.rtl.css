@@ -1,0 +1,14 @@
+.cz_quote .cz_quote_info img {
+	margin-right: 0;
+	margin-left: 20px
+}
+.cz_quote_arrow blockquote:after {
+	right: 62px;
+	left: auto
+}
+.cz_quote_center blockquote:after {
+	left: calc(51% - 20px)
+}
+.cz_quote_center blockquote:after {
+	right: auto
+}

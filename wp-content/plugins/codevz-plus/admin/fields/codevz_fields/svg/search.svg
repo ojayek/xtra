@@ -1,0 +1,22 @@
+<svg id="Search" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffae00;
+      }
+
+      .cls-2 {
+        fill: #ec9f05;
+        stroke: #000;
+        stroke-width: 2.5px;
+      }
+
+      .cls-3 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect id="BG_Shape" data-name="BG Shape" class="cls-1" width="32" height="32" rx="3" ry="3"/>
+  <circle class="cls-2" cx="14.406" cy="14.406" r="5.406"/>
+  <path id="Rounded_Rectangle_9" data-name="Rounded Rectangle 9" class="cls-3" d="M18.95,17.339l5.558,6.321A1.041,1.041,0,0,1,24,25a1.937,1.937,0,0,1-2.045-.081L16.4,18.6c-0.348-.429,1.174-0.251,1.6-0.6S18.6,16.91,18.95,17.339Z"/>
+</svg>
